@@ -2,3 +2,4 @@ node_modules
 todo.txt
 package-lock.json
 themes/nathanv.me/static/assets/*/*.min.*
+public/
