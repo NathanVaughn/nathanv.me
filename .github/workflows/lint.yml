@@ -22,7 +22,7 @@ jobs:
       id: cache-npm
       with:
         path: node_modules
-        key: npm-${{ hashFiles('**/package.json') }}
+        key: npm-${{ hashFiles('**/package-lock.json') }}
 
     - name: Install dependencies
       run: npm install
