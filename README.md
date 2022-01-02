@@ -1,8 +1,5 @@
 # nathanv.me
 [![Build Status](https://github.com/NathanVaughn/nathanv.me/workflows/Build/badge.svg)](https://github.com/NathanVaughn/nathanv.me/actions?workflow=Build)
-[![Total alerts](https://img.shields.io/lgtm/alerts/g/NathanVaughn/nathanv.me.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/NathanVaughn/nathanv.me/alerts/)
-[![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/NathanVaughn/nathanv.me.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/NathanVaughn/nathanv.me/context:javascript)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/5aa3bcdc68514799ab98e8f67e8c29c1)](https://www.codacy.com/manual/NathanVaughn/nathanv.me?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=NathanVaughn/nathanv.me&amp;utm_campaign=Badge_Grade)
 
 My portfolio website
 
