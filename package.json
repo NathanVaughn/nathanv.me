@@ -20,7 +20,8 @@
     "shx": "^0.3.2",
     "start-server-and-test": "^1.12.5",
     "svgo": "^2.0.0",
-    "uglify-js": "^3.6.6"
+    "uglify-js": "^3.6.6",
+    "nth-check": ">=2.0.1"
   },
   "scripts": {
     "beautify": "js-beautify public/index.html --no-preserve-newlines -o public/index.html",
