@@ -16,7 +16,7 @@
     "postcss": "^8.3.0",
     "postcss-cli": "^9.0.1",
     "postcss-preset-env": "^7.2.0",
-    "shelljs": "^0.8.3",
+    "shelljs": "^0.8.5",
     "shx": "^0.3.2",
     "start-server-and-test": "^1.12.5",
     "svgo": "^2.0.0",
@@ -39,7 +39,7 @@
   },
   "devDependencies": {
     "htmlhint": "^1.0.0",
-    "jshint": "^2.10.2",
+    "jshint": "^2.13.3",
     "stylelint": "^14.2.0",
     "stylelint-config-recommended": "^6.0.0"
   }
