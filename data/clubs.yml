@@ -1,35 +1,34 @@
 # logos should be 100px wide
--
-    company: PrISUm Solar Car
-    website: https://www.prisum.org
-    logo: assets/images/logos/prisum.png
-    position: IT Manager
-    dates: Aug 2017 - June 2019
-    content: |
-        - Implemented IT asset tracking and management software
-        - Administered and managed Windows Server for team which ran Autodesk Vault
-        - Devised new backup system for Autodesk Vault server
-        - Coordinated with university IT to implement new wiki software for the team to help improve collaboration and knowledge transfer
-        - Rebuilt website from scratch with new content management system software to improve speed, maintainability, and user experience
-        - Created helpdesk and provided hardware and software support for team computers
-        - Worked with university IT to create, deploy, and update standardized Windows images for team computers with SCCM
--
-    company: Cyclone Rocketry
-    website: https://stuorgs.engineering.iastate.edu/cyclone-rocketry/
-    logo: assets/images/logos/cyclonerocketry.png
-    position: Mechanical Team Member
-    dates: Jan 2018 - May 2018
-    content: |
-        - Developed airbrake system to allow rocket to precisely reach target altitude
-        - Used computational fluid dynamics to evaluate potential airbrake performance at different altitudes, velocities, and deployment angles
-        - Developed drafting standards and drafted mechanical components
--
-    company: PrISUm Solar Car
-    website: https://www.prisum.org
-    logo: assets/images/logos/prisum.png
-    position: Seats and Seatbelts Project Lead
-    dates: Aug 2016 - Aug 2017
-    content: |
-        - Designed seatbelt anchorages and ran finite element analysis to meet race regulations
-        - Communicated with numerous companies to secure seatbelt donation
-        - Developed custom bracket assembly to convert donated office chairs into seats for the vehicle
+- company: PrISUm Solar Car
+  website: https://www.prisum.org
+  logo: assets/images/logos/prisum.png
+  position: IT Manager
+  dates: Aug 2017 - June 2019
+  content: |
+    - Implemented IT asset tracking and management software
+    - Administered and managed Windows Server for team which ran Autodesk Vault
+    - Devised new backup system for Autodesk Vault server
+    - Coordinated with university IT to implement new wiki software for the team to help improve collaboration and knowledge transfer
+    - Rebuilt website from scratch with new content management system software to improve speed, maintainability, and user experience
+    - Created helpdesk and provided hardware and software support for team computers
+    - Worked with university IT to create, deploy, and update standardized Windows images for team computers with SCCM
+
+- company: Cyclone Rocketry
+  website: https://stuorgs.engineering.iastate.edu/cyclone-rocketry/
+  logo: assets/images/logos/cyclonerocketry.png
+  position: Mechanical Team Member
+  dates: Jan 2018 - May 2018
+  content: |
+    - Developed airbrake system to allow rocket to precisely reach target altitude
+    - Used computational fluid dynamics to evaluate potential airbrake performance at different altitudes, velocities, and deployment angles
+    - Developed drafting standards and drafted mechanical components
+
+- company: PrISUm Solar Car
+  website: https://www.prisum.org
+  logo: assets/images/logos/prisum.png
+  position: Seats and Seatbelts Project Lead
+  dates: Aug 2016 - Aug 2017
+  content: |
+    - Designed seatbelt anchorages and ran finite element analysis to meet race regulations
+    - Communicated with numerous companies to secure seatbelt donation
+    - Developed custom bracket assembly to convert donated office chairs into seats for the vehicle

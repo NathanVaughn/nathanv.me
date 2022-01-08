@@ -1,27 +1,26 @@
 # logos should be 100px wide
--
-    company: Iowa State University
-    website: https://www.iastate.edu/
-    logo: assets/images/logos/iowastate.png
-    position: B.S. in Aerospace Engineering
-    dates: 2016 - 2020
-    content: |
-        - 3.17 GPA with 152 credit hours
-        - B.S. in Aerospace Engineering
-        - Minor in Non-Destructive Evaluation
--
-    company: Austin Community College
-    website: https://www.austincc.edu/
-    logo: assets/images/logos/austincommunitycollege.png
-    position: General Studies
-    dates: 2014 - 2016
-    content: 21 Credit hours in English, History, Government, and Sociology
--
-    company: Dripping Springs High School
-    website: ""
-    logo: assets/images/logos/drippingspringshighschool.png
-    position: ""
-    dates: 2012 - 2016
-    content: |
-        - 4.0 GPA.
-        - I was involved in band and robotics.
+- company: Iowa State University
+  website: https://www.iastate.edu/
+  logo: assets/images/logos/iowastate.png
+  position: B.S. in Aerospace Engineering
+  dates: 2016 - 2020
+  content: |
+    - 3.17 GPA with 152 credit hours
+    - B.S. in Aerospace Engineering
+    - Minor in Non-Destructive Evaluation
+
+- company: Austin Community College
+  website: https://www.austincc.edu/
+  logo: assets/images/logos/austincommunitycollege.png
+  position: General Studies
+  dates: 2014 - 2016
+  content: 21 Credit hours in English, History, Government, and Sociology
+
+- company: Dripping Springs High School
+  website: ""
+  logo: assets/images/logos/drippingspringshighschool.png
+  position: ""
+  dates: 2012 - 2016
+  content: |
+    - 4.0 GPA.
+    - I was involved in band and robotics.
