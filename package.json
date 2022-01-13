@@ -15,7 +15,7 @@
     "js-beautify": "^1.10.2",
     "postcss": "^8.3.0",
     "postcss-cli": "^9.0.1",
-    "postcss-preset-env": "^7.2.1",
+    "postcss-preset-env": "^7.2.3",
     "shelljs": "^0.8.5",
     "shx": "^0.3.4",
     "start-server-and-test": "^1.12.5",
