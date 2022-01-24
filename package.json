@@ -9,7 +9,7 @@
   "license": "MIT",
   "dependencies": {
     "autoprefixer": "^10.4.2",
-    "critical": "^4.0.0",
+    "critical": "^4.0.1",
     "cssnano": "^5.0.16",
     "html-minifier": "^4.0.0",
     "js-beautify": "^1.10.2",
@@ -20,9 +20,7 @@
     "shx": "^0.3.4",
     "start-server-and-test": "^1.12.5",
     "svgo": "^2.0.0",
-    "uglify-js": "^3.6.6",
-    "nth-check": ">=2.0.1",
-    "follow-redirects": ">=1.14.7"
+    "uglify-js": "^3.6.6"
   },
   "scripts": {
     "beautify": "js-beautify public/index.html --no-preserve-newlines -o public/index.html",
