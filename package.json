@@ -39,7 +39,7 @@
     "svgmin": "svgo -f themes/nathanv.me/static/assets/icons/ --disable=removeViewBox"
   },
   "devDependencies": {
-    "htmlhint": "^1.0.0",
+    "htmlhint": "^1.1.1",
     "jshint": "^2.13.3",
     "stylelint": "^14.2.0",
     "stylelint-config-recommended": "^6.0.0"
