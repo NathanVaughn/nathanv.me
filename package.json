@@ -40,6 +40,6 @@
     "htmlhint": "^1.1.2",
     "jshint": "^2.13.4",
     "stylelint": "^14.4.0",
-    "stylelint-config-recommended": "^6.0.0"
+    "stylelint-config-recommended": "^7.0.0"
   }
 }
