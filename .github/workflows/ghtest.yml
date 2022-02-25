@@ -15,7 +15,7 @@ jobs:
         uses: peaceiris/actions-hugo@v2
 
       - name: Install Node
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
 
       - name: Cache Node Modules
         uses: actions/cache@v2
