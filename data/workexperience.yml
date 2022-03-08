@@ -7,10 +7,10 @@
   position: Software Engineer
   dates: Jan 2021 - Present
   content: |
-    I work as a Python developer within [Bell's Innovation group](https://www.bellflight.com/experience/innovation), primarily focusing on advanced air mobility and the future of urban transportation.
+    I work as a Python developer within [Bell's Innovation group](https://www.bellflight.com/experience/innovation), primarily focusing on fleet simulation and DevOps.
     - Rearchitected a SQL server data analysis workflow with Databricks and Azure Batch to save over $30,000 annually
     - Heavily implemented Azure Pipelines to automate testing, static code analysis, and deployments
-    - Using Azure Artifacts to facilitate code distribution and breaking projects into smaller reusable chunks
+    - Using JFrog Artifactory to simplify Python code distribution and re-usability
     - Volunteer with the Bell Vertical Robotics Competition for high-school students writing control software, documentation, and answering student questions
 
 - company: TRU Simulation + Training
