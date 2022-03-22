@@ -10,7 +10,7 @@
   "dependencies": {
     "autoprefixer": "^10.4.4",
     "critical": "^4.0.1",
-    "cssnano": "^5.1.4",
+    "cssnano": "^5.1.5",
     "html-minifier": "^4.0.0",
     "js-beautify": "^1.10.2",
     "postcss": "^8.4.12",
