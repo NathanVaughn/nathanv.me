@@ -8,7 +8,7 @@
   "author": "Nathan Vaughn",
   "license": "MIT",
   "dependencies": {
-    "autoprefixer": "^10.4.4",
+    "autoprefixer": "^10.4.5",
     "critical": "^4.0.1",
     "cssnano": "^5.1.7",
     "html-minifier": "^4.0.0",
