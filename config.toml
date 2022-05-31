@@ -1,56 +1,56 @@
-baseURL = "https://nathanv.me/"
-languageCode = "en-us"
-title = "Nathan Vaughn"
-theme = "nathanv.me"
+baseURL         = "https://nathanv.me/"
+languageCode    = "en-us"
+title           = "Nathan Vaughn"
+theme           = "nathanv.me"
 googleAnalytics = "UA-91853319-2"
-disableKinds = ["taxonomy", "taxonomyTerm", "RSS"]
+disableKinds    = ["taxonomy", "taxonomyTerm", "RSS"]
 enableRobotsTXT = "true"
 
 [params]
   author = "Nathan Vaughn"
 
 [menu]
-  [[menu.main]]
-    identifier = "about"
-    title = "ABOUT"
-    url = "#about"
-    weight = 10
-  [[menu.main]]
-    identifier = "work-experience"
-    title = "WORK EXPERIENCE"
-    url = "#work-experience"
-    weight = 20
-  [[menu.main]]
-    identifier = "skills"
-    title = "SKILLS"
-    url = "#skills"
-    weight = 30
-  [[menu.main]]
-    identifier = "clubs"
-    title = "CLUBS"
-    url = "#clubs"
-    weight = 40
-  [[menu.main]]
-    identifier = "projects"
-    title = "PROJECTS"
-    url = "#projects"
-    weight = 50
-  [[menu.main]]
-    identifier = "education"
-    title = "EDUCATION"
-    url = "#education"
-    weight = 60
-  [[menu.main]]
-    identifier = "contact"
-    title = "CONTACT"
-    url = "#contact"
-    weight = 70
-  [[menu.main]]
-    identifier = "blog"
-    title = "BLOG"
-    url = "https://blog.nathanv.me"
-    weight = 80
+[[menu.main]]
+  identifier = "about"
+  title      = "ABOUT"
+  url        = "#about"
+  weight     = 10
+[[menu.main]]
+  identifier = "work-experience"
+  title      = "WORK EXPERIENCE"
+  url        = "#work-experience"
+  weight     = 20
+[[menu.main]]
+  identifier = "skills"
+  title      = "SKILLS"
+  url        = "#skills"
+  weight     = 30
+[[menu.main]]
+  identifier = "clubs"
+  title      = "CLUBS"
+  url        = "#clubs"
+  weight     = 40
+[[menu.main]]
+  identifier = "projects"
+  title      = "PROJECTS"
+  url        = "#projects"
+  weight     = 50
+[[menu.main]]
+  identifier = "education"
+  title      = "EDUCATION"
+  url        = "#education"
+  weight     = 60
+[[menu.main]]
+  identifier = "contact"
+  title      = "CONTACT"
+  url        = "#contact"
+  weight     = 70
+[[menu.main]]
+  identifier = "blog"
+  title      = "BLOG"
+  url        = "https://blog.nathanv.me"
+  weight     = 80
 
-[ blackfriday ]
+[blackfriday]
   hrefTargetBlank = true
   noreferrerLinks = true
