@@ -11,18 +11,11 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v3
 
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
-
-      - name: Install Node
+      - name: Setup NPM
         uses: actions/setup-node@v3
-
-      - name: Cache Node Modules
-        uses: actions/cache@v3
-        id: cache-npm
         with:
-          path: node_modules
-          key: npm-${{ hashFiles('**/package-lock.json') }}
+          node-version: "16"
+          cache: npm
 
       - name: Install dependencies
         run: npm install
