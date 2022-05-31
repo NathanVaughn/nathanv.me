@@ -9,7 +9,7 @@ critical.generate({
     base: "themes/nathanv.me/static/assets/",
 
     // HTML source file
-    src: "http://localhost:1313",
+    src: "http://127.0.0.1:1313",
 
     dimensions: [{
                 width: 375,

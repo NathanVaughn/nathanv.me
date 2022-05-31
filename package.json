@@ -29,7 +29,7 @@
     "build:js": "uglifyjs themes/nathanv.me/static/assets/js/main.js --compress --mangle -o themes/nathanv.me/static/assets/js/main.min.js",
     "build": "npm run build:js && npm run build:css && hugo --cleanDestinationDir && npm run beautify && shx rm -rf public/assets/icons && shx rm -rf resources/",
     "critical-gen": "node critical.js",
-    "critical": "start-server-and-test server http://localhost:1313 critical-gen",
+    "critical": "start-server-and-test server http://127.0.0.1:1313 critical-gen",
     "lint:css": "stylelint themes/nathanv.me/static/assets/css/style.css",
     "lint:html": "htmlhint --config htmlhint.config.json public/index.html",
     "lint:js": "jshint themes/nathanv.me/static/assets/js/main.js",
