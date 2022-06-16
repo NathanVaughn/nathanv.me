@@ -8,10 +8,12 @@
   dates: Jan 2021 - Present
   content: |
     I work as a Python developer within [Bell's Innovation group](https://www.bellflight.com/experience/innovation), primarily focusing on fleet simulation and DevOps.
-    - Rearchitected a SQL server data analysis workflow with Databricks and Azure Batch to save over $30,000 annually
-    - Heavily implemented Azure Pipelines to automate testing, static code analysis, and deployments
-    - Using JFrog Artifactory to simplify Python code distribution and re-usability
-    - Volunteer with the Bell Vertical Robotics Competition for high-school students writing control software, documentation, and answering student questions
+    - Rearchitected a SQL server data analysis workflow with Databricks and Azure Batch to save over $30k annually
+    - Automated testing, static code analysis, and deployments with Azure Pipelines
+    - Developed a process for repeatable mass deployments of mission software onto air-launched drones
+    - Participated in test events and provided on-site customer support for mission-critical software
+    - Simplifying Python code distribution and re-usability using JFrog Artifactory
+    - Volunteering with the Bell Vertical Robotics Competition for high-school students as the lead software engineer writing control software, documentation, and answering student questions
 
 - company: TRU Simulation + Training
   website: https://www.trusimulation.com/
