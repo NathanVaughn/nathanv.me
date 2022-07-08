@@ -1,5 +1,4 @@
 # nathanv.me
-[![Build Status](https://github.com/NathanVaughn/nathanv.me/workflows/Build/badge.svg)](https://github.com/NathanVaughn/nathanv.me/actions?workflow=Build)
 
 My portfolio website
 
@@ -27,6 +26,7 @@ Minifies JS with `uglifyjs`.
 ### build
 
 This script:
+
 1. Runs `build:js` and `build:css`
 2. Runs `hugo` to generate the site
 3. Runs `beautify` to beautify the output HTML
