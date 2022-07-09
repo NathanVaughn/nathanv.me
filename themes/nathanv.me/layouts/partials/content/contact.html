@@ -4,9 +4,6 @@
             {{ readFile "/themes/nathanv.me/static/assets/icons/send.svg" | safeHTML }} Contact</h2>
     </div>
     <div class="video-container" style="height: {{ .Site.Data.contact.form_height }};">
-        <noscript>
-            <iframe src="{{ .Site.Data.contact.form_link }}" frameborder="0" marginheight="0" marginwidth="0" scrolling="no" title="Contact Form">Loading...</iframe>
-        </noscript>
-        <iframe class="lazyload lazypreload" data-src="{{ .Site.Data.contact.form_link }}" frameborder="0" marginheight="0" marginwidth="0" scrolling="no" title="Contact Form">Loading...</iframe>
+        <iframe src="{{ .Site.Data.contact.form_link }}" frameborder="0" marginheight="0" marginwidth="0" scrolling="no" title="Contact Form" loading="lazy">Loading...</iframe>
     </div>
 </section>

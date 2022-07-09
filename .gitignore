@@ -1,12 +1,18 @@
 # node
 node_modules
 
-# compiled code
-themes/nathanv.me/static/assets/*/*.min.*
+# built assets
+themes/nathanv.me/static/assets/css
+themes/nathanv.me/static/assets/js
 
 # built site
 public/
+dist/
 .hugo_build.lock
+
+# parcel cache
+.parcel-cache/
+.cache/
 
 # misc
 todo.txt
