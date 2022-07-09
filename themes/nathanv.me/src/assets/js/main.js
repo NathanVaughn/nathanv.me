@@ -1,12 +1,12 @@
 /* jshint esversion: 6 */
 
-import { Sidenav, ScrollSpy, Collapsible, Tabs, Modal, Materialbox, Tooltip } from "materialize-css";
-import "lazysizes";
-import mixitup from "mixitup";
-
 // lazyloading config
 window.lazySizesConfig = window.lazySizesConfig || {};
 lazySizesConfig.preloadAfterLoad = true;
+
+import { Sidenav, ScrollSpy, Collapsible, Tabs, Modal, Materialbox, Tooltip } from "materialize-css";
+import "lazysizes";
+import mixitup from "mixitup";
 
 document.addEventListener("DOMContentLoaded", function () {
     var elems;
