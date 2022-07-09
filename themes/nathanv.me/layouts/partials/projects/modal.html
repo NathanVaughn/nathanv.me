@@ -9,20 +9,20 @@
                 <div class="media-wrapper flex">
                     {{ range .images }}
                     <div class="col s6">
-                        {{ partial "macros/lazyimage.html" (dict "link" . "classes" "materialboxed img-responsive" "title" "") }}
+                        {{ partial "macros/notsolazyimage.html" (dict "link" . "classes" "materialboxed img-responsive" "title" "") }}
                     </div>
                     {{ end }}
                 </div>
                 {{ else if eq $imagelen 1}}
                 {{/* One image */}}
                 {{ $image := index (.images) 0 }}
-                {{ partial "macros/lazyimage.html" (dict "link" $image "classes" "materialboxed col s12 responsive-img" "title" .name) }}
+                {{ partial "macros/notsolazyimage.html" (dict "link" $image "classes" "materialboxed col s12 responsive-img" "title" .name) }}
                 {{ end }}
             {{ else if (.video)}}
             {{/* A video */}}
             <div class="col s12">
                 <div class="video-container">
-                    <iframe class="lazyload" width="560" height="315" data-src="{{ .video }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="{{ .video }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
                 </div>
             </div>
             {{ end }}

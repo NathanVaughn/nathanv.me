@@ -1,15 +1,2 @@
-{{/* link, classes, title */}}
-
-{{/*
-{{ $ext := path.Ext .link }}
-{{ $len := (len $ext) }}
-{{ $neglen := mul $len -1 }}
-{{ $full := substr .link 0 $neglen }}
-{{ $webp := printf "%s%s" $full ".webp" }}
-*/}}
-
-<noscript>
-    {{ partial "macros/image.html" (dict "link" .link "classes" .classes "title" .title) }}
-</noscript>
-
-<img class="lazyload {{ .classes }}" src="assets/images/loader.gif" data-src="{{ .link }}" alt="{{ .title }}" loading="lazy">
+{{/* Images that are below the fold and will be scrolled to */}}
+<img class="{{ .classes }}" src="{{ .link }}" alt="{{ .title }}" loading="lazy">

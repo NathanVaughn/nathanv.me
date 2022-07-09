@@ -1,0 +1,7 @@
+{{/* Images that are hidden and will pop up suddnely, so should already be loaded */}}
+
+<noscript>
+    {{ partial "macros/lazyimage.html" (dict "link" .link "classes" .classes "title" .title) }}
+</noscript>
+
+<img class="lazyload {{ .classes }}" src="assets/images/loader.gif" data-src="{{ .link }}" alt="{{ .title }}" loading="lazy">
