@@ -66,6 +66,11 @@ section .section-content {
     fill: rgba(0, 0, 0, 0.7);
 }
 
+/* Preload hidden lazy images */
+img.lazyload {
+    opacity: 0.001;
+}
+
 /* fade in lazyloaded images */
 .lazyload,
 .lazyloading {
