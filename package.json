@@ -24,7 +24,7 @@
   "scripts": {
     "build:css": "cd themes/nathanv.me/src/ && parcel build assets/css/style.css --dist-dir ../static/",
     "build:js": "cd themes/nathanv.me/src/ && parcel build assets/js/main.js --dist-dir ../static/",
-    "build": "npm run build:css && npm run build:js && hugo --cleanDestinationDir && rimraf dist && cd public && parcel build index.html && copyfiles robots.txt sitemap.xml ../dist/ && cd .. && copyfiles _redirects dist/ && node postprocess.js",
+    "build": "npm run build:css && npm run build:js && hugo --cleanDestinationDir && rimraf dist && cd public && parcel build index.html && copyfiles robots.txt sitemap.xml ../dist/ && cd .. && node postprocess.js",
     "lint:css": "stylelint themes/nathanv.me/src/assets/css/style.css",
     "lint:html": "htmlhint public/index.html",
     "lint:js": "jshint themes/nathanv.me/src/assets/js/main.js",
