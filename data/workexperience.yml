@@ -1,4 +1,13 @@
 # logos should be 100px wide and no taller than 35px
+- company: Emerson
+  website: https://www.emerson.com/en-us/automation/fisher
+  address: 301 S 1st Ave, Marshalltown, Iowa 50158
+  phone: "641-754-3011"
+  logo: assets/images/logos/emerson.png
+  position: Product Engineer
+  dates: Aug 2022 - Present
+  content:
+
 - company: Bell Flight
   website: https://www.bellflight.com/
   address: 3255 Bell Flight Boulevard, Fort Worth, Texas 76118
@@ -13,7 +22,7 @@
     - Developed a process for repeatable mass deployments of mission software onto air-launched drones
     - Participated in test events and provided on-site customer support for mission-critical software
     - Simplified Python code distribution and re-usability using JFrog Artifactory
-    - Volunteered with the Bell Advanced Robotics Competition for high-school students as the lead software engineer writing control software, documentation, and answering student questions
+    - Volunteered with the Bell Vertical Robotics Competition for high-school students as the lead software engineer writing control software, documentation, and answering student questions
 
 - company: TRU Simulation + Training
   website: https://www.trusimulation.com/
