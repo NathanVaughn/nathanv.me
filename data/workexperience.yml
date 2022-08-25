@@ -1,12 +1,13 @@
 # logos should be 100px wide and no taller than 35px
 - company: Emerson
-  website: https://www.emerson.com/en-us/automation/fisher
+  website: https://www.emerson.com/en-us
   address: 301 S 1st Ave, Marshalltown, Iowa 50158
   phone: "641-754-3011"
   logo: assets/images/logos/emerson.png
   position: Product Engineer
   dates: Aug 2022 - Present
-  content:
+  content: |
+    I am working as a Product Engineer in the Special Products Group of [Fisher Controls](https://www.emerson.com/en-us/automation/fisher) in Marshalltown, Iowa.
 
 - company: Bell Flight
   website: https://www.bellflight.com/
