@@ -7,7 +7,7 @@
   "author": "Nathan Vaughn",
   "license": "MIT",
   "dependencies": {
-    "@gatsbyjs/parcel-namer-relative-to-cwd": "^1.4.0",
+    "@gatsbyjs/parcel-namer-relative-to-cwd": "^1.7.0",
     "@parcel/optimizer-data-url": "^2.6.2",
     "@parcel/packager-raw-url": "^2.6.2",
     "@parcel/transformer-inline-string": "^2.6.2",
