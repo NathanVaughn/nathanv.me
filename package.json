@@ -34,7 +34,7 @@
     "htmlhint": "^1.1.4",
     "http-server": "^14.1.1",
     "jshint": "^2.13.4",
-    "stylelint": "^14.9.1",
+    "stylelint": "^14.11.0",
     "stylelint-config-recommended": "^8.0.0"
   },
   "browserslist": "> 1%, last 2 versions, not dead"
