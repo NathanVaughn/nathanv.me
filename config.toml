@@ -2,9 +2,14 @@ baseURL         = "https://nathanv.me/"
 languageCode    = "en-us"
 title           = "Nathan Vaughn"
 theme           = "nathanv.me"
-googleAnalytics = "UA-91853319-2"
+googleAnalytics = "G-VBK91PK943"
 disableKinds    = ["taxonomy", "taxonomyTerm", "RSS"]
 enableRobotsTXT = "true"
+
+[privacy]
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    respectDoNotTrack = true
 
 [params]
   author = "Nathan Vaughn"
