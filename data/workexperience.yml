@@ -1,9 +1,9 @@
 # logos should be 100px wide and no taller than 35px
-- company: Emerson
-  website: https://www.emerson.com/en-us
+- company: Fisher Controls (Emerson Automation Solutions)
+  website: https://www.emerson.com/en-us/automation/fisher
   address: 301 S 1st Ave, Marshalltown, Iowa 50158
   phone: "641-754-3011"
-  logo: assets/images/logos/emerson.png
+  logo: assets/images/logos/fisher.png
   position: Product Engineer
   dates: Aug 2022 - Present
   content: |
