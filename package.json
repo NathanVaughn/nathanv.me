@@ -10,7 +10,7 @@
     "@gatsbyjs/parcel-namer-relative-to-cwd": "^2.5.0",
     "@parcel/optimizer-data-url": "^2.8.2",
     "@parcel/packager-raw-url": "^2.8.2",
-    "@parcel/transformer-inline-string": "^2.8.2",
+    "@parcel/transformer-inline-string": "^2.8.3",
     "@parcel/transformer-webmanifest": "^2.8.2",
     "copyfiles": "^2.4.1",
     "hugo-extended": "^0.109.0",
