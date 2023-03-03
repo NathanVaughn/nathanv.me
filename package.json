@@ -7,7 +7,7 @@
   "author": "Nathan Vaughn",
   "license": "MIT",
   "dependencies": {
-    "@gatsbyjs/parcel-namer-relative-to-cwd": "^2.5.0",
+    "@gatsbyjs/parcel-namer-relative-to-cwd": "^2.7.0",
     "@parcel/optimizer-data-url": "^2.8.3",
     "@parcel/packager-raw-url": "^2.8.3",
     "@parcel/transformer-inline-string": "^2.8.3",
@@ -35,8 +35,8 @@
     "htmlhint": "^1.1.4",
     "http-server": "^14.1.1",
     "jshint": "^2.13.6",
-    "stylelint": "^14.16.1",
-    "stylelint-config-recommended": "^9.0.0"
+    "stylelint": "^15.2.0",
+    "stylelint-config-recommended": "^10.0.1"
   },
   "browserslist": "> 1%, last 2 versions, not dead"
 }
