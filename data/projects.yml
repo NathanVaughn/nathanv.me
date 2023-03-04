@@ -15,10 +15,10 @@
   video: ""
 
 - name: Linkspring
-  date: Summer 2020 - Present
+  date: Summer 2020 - March 2023
   categories:
     - Programming
-  description: I developed a severless web app for users to create a page to consolidate all of the links they want to share with other people (Facebook, Twitter, Instagram, GitHub, etc) in one place. I have solely done all of the work on it including design, back-end work, front-end work, and development automation. It is primarily built with the Python [Flask framework](https://flask.palletsprojects.com/en/1.1.x/) and runs on [AWS Lambda](https://aws.amazon.com/lambda/) with [DynamoDB](https://aws.amazon.com/dynamodb/) as a database. The vast majority of the codebase is covered by unit and integration tests which are automatically run on every pull request. Every component, including a duplicate development copy, is hosted within AWS. Billing is handled by [Stripe](https://stripe.com/).
+  description: I developed a severless web app for users to create a page to consolidate all of the links they want to share with other people (Facebook, Twitter, Instagram, GitHub, etc) in one place. I solely did all of the work on it including design, back-end work, front-end work, and development automation. It was primarily built with the Python [Flask framework](https://flask.palletsprojects.com/en/1.1.x/) and runs on [AWS Lambda](https://aws.amazon.com/lambda/) with [DynamoDB](https://aws.amazon.com/dynamodb/) as a database. The vast majority of the codebase was covered by unit and integration tests which were automatically run on every pull request. Every component, including a duplicate development copy, was hosted within AWS. Billing was handled by [Stripe](https://stripe.com/).
   card_image: assets/images/projects/linkspring/card.jpg
   source_code: ""
   images:
