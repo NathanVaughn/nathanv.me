@@ -19,7 +19,7 @@
     "mixitup": "^3.3.1",
     "parcel": "^2.8.3",
     "parcel-transformer-html-datasrc": "^1.3.3",
-    "rimraf": "^4.3.0"
+    "rimraf": "^4.4.1"
   },
   "scripts": {
     "build:css": "cd themes/nathanv.me/src/ && parcel build assets/css/style.css --dist-dir ../static/",
