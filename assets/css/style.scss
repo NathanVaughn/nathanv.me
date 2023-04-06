@@ -35,6 +35,11 @@
 .post-title img {
     display: inline-block;
     margin-bottom: -5px;
+
+    // hide logos on small screens
+    @media ($phone) {
+        display: none;
+    }
 }
 
 // hide an element
@@ -45,4 +50,16 @@
 // when hidden element is active in lightbox, unhide it
 .hidden.fslightbox-source {
     display: block;
+}
+
+// hide anchor hover elements on touch devices
+@media (hover: none) {
+    .hanchor {
+      display: none;
+    }
+  }
+
+// allow websites to be broken to fit
+.post-website {
+    overflow-wrap: break-word;
 }

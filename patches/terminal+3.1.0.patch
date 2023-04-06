@@ -1,0 +1,43 @@
+diff --git a/node_modules/terminal/layouts/partials/footer.html b/node_modules/terminal/layouts/partials/footer.html
+index 0eb1903..ff4089d 100644
+--- a/node_modules/terminal/layouts/partials/footer.html
++++ b/node_modules/terminal/layouts/partials/footer.html
+@@ -15,7 +15,7 @@
+ {{ $menu := resources.Get "js/menu.js" | js.Build }}
+ {{ $prism := resources.Get "js/prism.js" | js.Build }}
+ 
+-{{ $bundle := slice $menu $prism | resources.Concat "bundle.js" | resources.Minify }}
++{{ $bundle := slice $menu $prism | resources.Concat "bundle.js" | resources.Minify | fingerprint }}
+ 
+ <script type="text/javascript" src="{{ $bundle.RelPermalink }}"></script>
+ 
+diff --git a/node_modules/terminal/layouts/partials/head.html b/node_modules/terminal/layouts/partials/head.html
+index 9352d88..82f65c3 100644
+--- a/node_modules/terminal/layouts/partials/head.html
++++ b/node_modules/terminal/layouts/partials/head.html
+@@ -18,14 +18,14 @@
+ {{ if and (isset .Params "color") (not (eq .Params.color "")) }}
+   {{ $localColorCss := resources.Get (printf "css/color/%s.scss" .Params.color) }}
+   {{ $localCss := slice $localColorCss $defaultStyles | resources.Concat (printf "css/%s-local.scss" .Params.color) }}
+-  {{ $localColorStyles := $localCss | resources.ToCSS }}
++  {{ $localColorStyles := $localCss | resources.ToCSS | fingerprint }}
+   <link rel="stylesheet" href="{{ $localColorStyles.Permalink }}">
+ {{ else }}
+   <!-- Theme Variables -->
+   {{ $colorCss := resources.Get (printf "css/color/%s.scss" ($.Site.Params.ThemeColor | default "orange")) }}
+   {{ $css := slice $colorCss $defaultStyles | resources.Concat "css/base.scss" }}
+   {{ $options := (dict "targetPath" "styles.css" "outputStyle" "compressed" "enableSourceMap" true "precision" 6 "includePaths" (slice "node_modules")) }}
+-  {{ $styles := $css | resources.ToCSS $options }}
++  {{ $styles := $css | resources.ToCSS $options | fingerprint }}
+   <link rel="stylesheet" href="{{ $styles.Permalink }}">
+ {{ end }}
+ 
+@@ -68,7 +68,7 @@
+   {{ if isset $.Site.Params "favicon" }}
+     <meta property="og:image" content="{{ $.Site.Params.favicon | absURL }}">
+   {{ else }}
+-    <meta property="og:image" content="{{ printf "img/favicon/%s.png" $.Site.Params.ThemeColor | absURL }}">
++    <meta property="og:image" content="{{ printf "img/theme-colors/%s.png" $.Site.Params.ThemeColor | absURL }}">
+   {{ end }}
+ {{ end }}
+ <meta property="og:image:width" content="1200">

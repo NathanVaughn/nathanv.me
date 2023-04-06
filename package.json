@@ -1,12 +1,13 @@
 {
   "dependencies": {
-    "cpx": "^1.5.0",
     "fslightbox": "^3.4.1",
     "hugo-extended": "^0.111.3",
+    "patch-package": "^6.5.1",
     "terminal": "github:panr/hugo-theme-terminal#v3.1.2"
   },
   "scripts": {
-    "build": "hugo --cleanDestinationDir && cpx \"public/img/theme-colors/**\" public/img/favicon/",
-    "server": "hugo server"
+    "build": "hugo --cleanDestinationDir",
+    "server": "hugo server",
+    "postinstall": "patch-package"
   }
 }
