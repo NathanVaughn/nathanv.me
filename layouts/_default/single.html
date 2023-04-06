@@ -13,9 +13,7 @@
     {{- end -}}
   </div>
 
-  {{ if eq .Type $.Site.Params.contentTypeName }}
-    {{ partial "posts_pagination.html" . }}
-  {{ end }}
+  {{ partial "posts_pagination.html" . }}
 
 </article>
 {{ end }}

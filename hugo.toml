@@ -2,27 +2,39 @@ baseurl = "/"
 languageCode = "en-us"
 theme = "terminal"
 themesDir = "node_modules"
+googleAnalytics = "G-VBK91PK943"
+disableKinds = ["RSS"]
 paginate = 5
 
-disableKinds = ["RSS"]
+# google Analytics privacy
+[privacy]
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    respectDoNotTrack = true
 
+# better resampling algorithm
 [imaging]
   quality = 95
   resampleFilter = "lanczos"
 
+# allow for HTML in markdown
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
 
 [params]
-  contentTypeName = "items"
+  # appearance
   themeColor = "red"
-  showMenuItems = 10
-  homepagePaginateCount = 8
   fullWidthTheme = false
   centerTheme = true
+
+  # homepage settings
+  homepagePaginateCount = 8
   showPostLogos = true
+
+  # top menu bar
+  showMenuItems = 10
 
 [languages]
   [languages.en]
@@ -30,15 +42,22 @@ disableKinds = ["RSS"]
     subtitle = "Nathan Vaughn's corner of the internet"
     keywords = ""
     copyright = ""
+
+    # menu text when items are hidden
     menuMore = "Show more"
+    # bottom of summary text when the whole content is hidden
     readMore = "Read more"
+    # on list pages
     newerPosts = "Newer items"
     olderPosts = "Older items"
 
     [languages.en.params.logo]
       logoText = "Nathan Vaughn"
-      logoHomeLink = "/"
 
+    # menu items
+    # /item will create lists
+    # /#item will create a single page
+    # anything else will be a direct link
     [languages.en.menu]
       [[languages.en.menu.main]]
         identifier = "about"
