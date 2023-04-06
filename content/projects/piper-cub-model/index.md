@@ -3,7 +3,6 @@ title = "Piper Cub CAD Model"
 website = ""
 daterange = "April 2017"
 subtitle = ""
-cover = ""
 tags = ["SOLIDWORKS"]
 description = "I modelled a Piper J-3 Cub as part of a team for a class project. All work was done in SOLIDWORKS."
 showFullContent = false

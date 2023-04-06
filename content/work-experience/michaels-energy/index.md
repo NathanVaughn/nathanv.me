@@ -6,7 +6,6 @@ daterange = "May 2018 - July 2018"
 subtitle = "Residential Direct Load Control Intern"
 address = "201 1st Avenue SE, Suite 200, Cedar Rapids, Iowa 52401"
 phoneNumber = "319-531-6177"
-cover = ""
 tags = []
 keywords = []
 description = ""

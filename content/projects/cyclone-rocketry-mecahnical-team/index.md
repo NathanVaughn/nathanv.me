@@ -4,7 +4,6 @@ website = "https://stuorgs.engineering.iastate.edu/cyclone-rocketry/"
 daterange = "Jan 2018 - May 2018"
 logo = "cyclone_rocketry_logo_dark.png"
 subtitle = "Mechanical Team Member"
-cover = ""
 tags = ["SOLIDWORKS"]
 description = ""
 showFullContent = true

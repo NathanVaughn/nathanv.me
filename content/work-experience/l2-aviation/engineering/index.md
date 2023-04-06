@@ -6,7 +6,6 @@ daterange = "May 2017 - July 2017"
 subtitle = "Engineering Intern"
 address = "2100 East Highway 290, Dripping Springs, Texas 78620"
 phoneNumber = "512-894-3414"
-cover = ""
 tags = ["Autodesk Inventor", "Autodesk Vault", "drafting"]
 keywords = []
 description = ""

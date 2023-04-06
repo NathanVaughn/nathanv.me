@@ -6,7 +6,6 @@ daterange = "Jan 2021 - Aug 2022"
 subtitle = "Software Engineer"
 address = "3255 Bell Flight Boulevard, Fort Worth, Texas 76118"
 phoneNumber = "817-280-2011"
-cover = ""
 tags = ["Azure", "Azure DevOps", "PX4", "Python", "Docker", "SQL"]
 description = "I worked as a Python developer within [Bell's Innovation group](https://www.bellflight.com/experience/innovation), primarily focusing on fleet simulation and DevOps."
 showFullContent = false

@@ -7,7 +7,6 @@ subtitle = "Part-Time SOLIDWORKS Modelling"
 address = ""
 phoneNumber = ""
 dontRenderOnHomepage = true
-cover = ""
 tags = []
 keywords = []
 description = ""

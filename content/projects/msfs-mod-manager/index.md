@@ -3,7 +3,6 @@ title = "MSFS Mod Manager"
 website = "https://github.com/NathanVaughn/msfs-mod-manager"
 daterange = "Fall 2020"
 subtitle = ""
-cover = ""
 tags = ["Python", "Qt"]
 description = "MSFS Mod Manager is an external mod manager for the new Microsoft Flight Simulator."
 showFullContent = false

@@ -4,7 +4,6 @@ website = "https://www.trusimulation.com/"
 logo = "tru_simulation_training_logo.png"
 daterange = "Jun 2020 - Aug 2020"
 subtitle = "Software Engineering Intern"
-cover = ""
 tags = ["test procedures"]
 keywords = []
 description = ""

@@ -4,7 +4,6 @@ website = "https://prisum.org"
 daterange = "Aug 2017 - June 2019"
 logo = "prisum_logo_dark.png"
 subtitle = "IT Manager"
-cover = ""
 tags = ["HTML", "CSS", "JS"]
 description = """
 - Implemented IT asset tracking and management software

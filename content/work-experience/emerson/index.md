@@ -6,7 +6,6 @@ daterange = "Aug 2022 - Present"
 subtitle = "Product Engineer"
 address = "301 S 1st Ave, Marshalltown, Iowa 50158"
 phoneNumber = "641-754-3011"
-cover = ""
 tags = ["SOLIDWORKS", "documentation", "materials"]
 keywords = []
 description = ""

@@ -3,7 +3,6 @@ title = "My Blog"
 website = "https://blog.nathanv.me"
 daterange = "Fall 2019 - Present"
 subtitle = ""
-cover = ""
 tags = []
 description = ""
 showFullContent = true

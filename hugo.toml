@@ -27,7 +27,7 @@ disableKinds = ["RSS"]
 [languages]
   [languages.en]
     title = "Nathan Vaughn"
-    subtitle = ""
+    subtitle = "Nathan Vaughn's corner of the internet"
     keywords = ""
     copyright = ""
     menuMore = "Show more"

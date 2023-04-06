@@ -3,7 +3,6 @@ title = "Linkspring"
 website = ""
 daterange = "Summer 2020 - March 2023"
 subtitle = ""
-cover = ""
 tags = ["AWS", "Lambda", "DynamoDB", "S3", "CloudFront", "Python", "Flask"]
 description = "I developed a severless web app for users to create a page to consolidate all of the links they want to share with other people (Facebook, Twitter, Instagram, GitHub, etc) in one place."
 showFullContent = false

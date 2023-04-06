@@ -7,7 +7,6 @@ subtitle = "Kennel Tech"
 address = "20200 Ranch to Market Rd 150, Driftwood, TX 78619"
 phoneNumber = "512-858-9227"
 dontRenderOnHomepage = true
-cover = ""
 tags = []
 keywords = []
 description = ""

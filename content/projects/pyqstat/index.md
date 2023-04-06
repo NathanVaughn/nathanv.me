@@ -3,7 +3,6 @@ title = "pyQstat"
 website = "https://github.com/NathanVaughn/pyQstat"
 daterange = "Spring 2019"
 subtitle = ""
-cover = ""
 tags = ["Python", "Flask"]
 description = "pyQstat is a small Python-based web app to display Sun Grid Engine (and forks) statistics."
 showFullContent = false

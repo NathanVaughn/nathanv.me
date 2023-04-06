@@ -6,7 +6,6 @@ daterange = "Feb 2016 - July 2016"
 subtitle = "Programming Intern"
 address = "2100 East Highway 290, Dripping Springs, Texas 78620"
 phoneNumber = "512-894-3414"
-cover = ""
 tags = ["Python", "VBA", "SQL"]
 description = ""
 showFullContent = true

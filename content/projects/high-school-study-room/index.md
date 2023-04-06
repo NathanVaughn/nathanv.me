@@ -3,7 +3,6 @@ title = "High School Library Study Room Renovation"
 website = ""
 daterange = "January 2016"
 subtitle = ""
-cover = ""
 tags = ["SOLIDWORKS"]
 description = "I made renderings of a concept study room during high school. The renderings were created with SOLIDWORKS. This study room ended up getting funding and was made a reality."
 showFullContent = false

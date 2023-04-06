@@ -3,7 +3,6 @@ title = "Webtrees Docker Image"
 website = "https://github.com/NathanVaughn/webtrees-docker"
 daterange = "Summer 2019 - Present"
 subtitle = ""
-cover = ""
 tags = ["Docker", "GitHub", "Python"]
 description = "I have created and maintain a Docker image for popular web-based genealogy software [Webtrees](https://webtrees.net/)."
 showFullContent = false
