@@ -6,7 +6,7 @@
     "terminal": "github:panr/hugo-theme-terminal#v3.1.2"
   },
   "scripts": {
-    "build": "hugo --cleanDestinationDir && cpx public/img/theme-colors/** public/img/favicon/",
+    "build": "hugo --cleanDestinationDir && cpx \"public/img/theme-colors/**\" public/img/favicon/",
     "server": "hugo server"
   }
 }
