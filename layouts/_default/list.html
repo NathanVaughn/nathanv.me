@@ -1,0 +1,37 @@
+{{ define "main" }}
+  {{ with .Content }}
+    <div class="index-content">
+      {{ . }}
+    </div>
+  {{ end }}
+  <div class="posts">
+    {{ range .Paginator.Pages }}
+      <article class="post on-list">
+        {{ partial "post_title.html" . }}
+
+        {{ if .Params.Cover }}
+          {{ .Scratch.Set "cover_type" "post" }}
+          {{ partial "cover.html" . }}
+        {{ end}}
+
+        <div class="post-content">
+          {{ if .Params.showFullContent }}
+            {{ .Content }}
+          {{ else if .Description }}
+            {{ .Description | markdownify }}
+          {{ else }}
+            {{ .Summary }}
+          {{ end }}
+        </div>
+
+        {{ if not .Params.showFullContent }}
+          <div>
+            <a class="read-more button" href="{{.RelPermalink}}">{{ $.Site.Params.ReadMore }} →</a>
+          </div>
+        {{ end }}
+      </article>
+    {{ end }}
+
+    {{ partial "pagination.html" . }}
+  </div>
+{{ end }}

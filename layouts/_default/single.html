@@ -1,0 +1,21 @@
+{{ define "main" }}
+<article class="post">
+  {{ partial "post_title.html" . }}
+
+  {{/*  {{ .Scratch.Set "cover_type" "post" }}  */}}
+  {{/*  {{ partial "cover.html" . }}  */}}
+
+  <div class="post-content">
+    {{- with .Content -}}
+      <div>
+        {{ . }}
+      </div>
+    {{- end -}}
+  </div>
+
+  {{ if eq .Type $.Site.Params.contentTypeName }}
+    {{ partial "posts_pagination.html" . }}
+  {{ end }}
+
+</article>
+{{ end }}

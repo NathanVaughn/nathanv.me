@@ -1,0 +1,60 @@
+{{/*  <h1 class="post-title">
+    {{ if .Params.website }}
+    <a href="{{ .Params.website }}" target="_blank" >{{ .Title | markdownify }}
+    {{ else }}
+    {{ .Title | markdownify }}
+    {{ end }}
+        {{ if and .Params.logo .Site.Params.showPostLogos }}
+        <img src="{{.Params.logo }}" alt="{{ .Title }}">
+        {{ end }}
+    {{ if .Params.website }}
+    </a>
+    <a href="{{ .Params.website }}" target="_blank" class="hanchor" arialabel="Anchor">↗</a>
+    {{ end }}
+</h1>
+
+<div class="post-meta">
+    <span class="post-author">{{ .Params.subtitle }}</span>
+    {{ if and .Params.subtitle .Params.daterange }}
+    <span>::</span>
+    {{ end }}
+    <span class="post-date">{{ .Params.daterange }}</span>
+</div>  */}}
+
+<h1 class="post-title">
+    <a href="{{ .Permalink }}">
+        {{ .Title | markdownify }}
+        {{ if and .Params.logo .Site.Params.showPostLogos }}
+        {{ $logo := .Page.Resources.Get .Params.logo }}
+        {{ $logo := $logo.Resize "x35" }}
+        {{ $logo_webp := $logo.Resize "x35 webp" }}
+        <picture>
+            <source srcset="{{ $logo_webp.Permalink }}" type="image/webp" alt="{{ .Title }}" width="{{ $logo_webp.Width }}" height="{{ $logo_webp.Height }}">
+            <img src="{{ $logo.Permalink }}" alt="{{ .Title }}" width="{{ $logo.Width }}" height="{{ $logo.Height }}">
+        </picture>
+        {{ end }}
+    </a>
+    <a href="{{ .Permalink }}" class="hanchor" arialabel="Anchor">⟶</a>
+</h1>
+
+<div class="post-meta">
+    <span class="post-author">{{ .Params.subtitle }}</span>
+    {{ if and .Params.subtitle .Params.daterange }}
+    <span>::</span>
+    {{ end }}
+    <span class="post-date">{{ .Params.daterange }}</span>
+    {{ if .Params.website }}
+    <span>::</span>
+    <a href="{{ .Params.website }}" target="_blank" >{{ .Params.website }}</a>
+    {{ end }}
+</div>
+
+{{ if .Params.tags }}
+<span class="post-tags">
+    {{ range .Params.tags }}
+    #<a href="{{ (urlize (printf "tags/%s/" . )) | absLangURL }}">
+    {{- . -}}
+    </a>&nbsp;
+    {{ end }}
+</span>
+{{ end }}

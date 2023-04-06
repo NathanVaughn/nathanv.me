@@ -1,0 +1,48 @@
+@import "variables";
+
+@import "font";
+@import "buttons";
+@import "form";
+
+@import "header";
+@import "menu";
+@import "logo";
+@import "main";
+@import "post";
+@import "pagination";
+@import "footer";
+
+@import "section";
+@import "flexgrid";
+
+// @import "prism";
+// @import "syntax";
+// @import "code";
+// @import "terms";
+// @import "gist";
+
+// allow the site to be wider
+.container {
+    max-width: 1200px;
+}
+
+// center the footer
+.footer__inner {
+    margin: auto;
+}
+
+// add logos to the post title
+.post-title img {
+    display: inline-block;
+    margin-bottom: -5px;
+}
+
+// hide an element
+.hidden {
+    display: none;
+}
+
+// when hidden element is active in lightbox, unhide it
+.hidden.fslightbox-source {
+    display: block;
+}

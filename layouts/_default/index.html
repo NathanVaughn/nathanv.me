@@ -1,0 +1,54 @@
+{{/* Adapted from https://github.com/justinnuwin/hugo-theme-terminal/blob/abeedc40fcbe7e97f1cfe0ddd6369df9e54f52ae/layouts/_default/index.html */}}
+
+{{ define "main" }}
+  {{ if .Content }}
+    <div class="index-content {{ if .Params.framed -}}framed{{- end -}}">
+      {{ .Content }}
+    </div>
+  {{ end }}
+  <div class="sections">
+    {{ range .Site.Menus.main }}
+      {{ if ne (default false .Params.dontRenderHomepage) true }}
+        <section id="{{ .Identifier }}" class="posts section">
+          {{ $navLinkPage := $.Site.GetPage .URL }}
+          {{ if eq (first 2 .URL) "/#" }}
+            {{/* Single content */}}
+            <h1 class="section-header">{{ .Name }}<a href="#{{ .Identifier }}" class="hanchor" arialabel="Anchor">#</a></h1>
+            <div class="post">
+              {{ with $.Site.GetPage .Identifier }}
+                {{ partial "section.html" . }}
+              {{ end }}
+            </div>
+          {{ else if in "section term" $navLinkPage.Kind }}
+            {{/* Collection of content */}}
+            <h1 class="section-header">{{ .Name }}<a href="{{ .URL }}" class="hanchor" arialabel="Anchor">#</a></h1>
+            {{ $paginateCount := default 2 $.Site.Params.homepagePaginateCount }}
+            {{ range first $paginateCount $navLinkPage.Pages }}
+              {{ if ne (default false .Params.dontRenderOnHomepage) true }}
+                {{ partial "collection.html" . }}
+              {{ end }}
+            {{ end }}
+            {{ if gt ($navLinkPage.Pages | len) $paginateCount }}
+            <div class="pagination">
+              <div class="pagination__buttons">
+                <span class="button previous">
+                  <a href="{{ .URL }}">
+                    <span class="button__icon">→</span>
+                    <span class="button__text">See more {{ .Name | pluralize | lower }}</span>
+                  </a>
+                </span>
+              </div>
+            </div>
+            {{ end }}
+          {{ else if eq $navLinkPage.Kind "page" }}
+            {{ partial "section.html" $navLinkPage }}
+          {{ else }}
+            {{ $navLinkPage.Kind }} is not supported yet.
+          {{ end }}
+        </section>
+        <hr class="section-separator">
+      {{ end }}
+    {{ end }}
+  </div>
+  </div>
+{{ end }}

@@ -1,42 +1,11 @@
 {
-  "name": "nathanv.me",
-  "version": "1.0.0",
-  "description": "Nathan Vaughn's portfolio website",
-  "homepage": "https://nathanv.me",
-  "repository": "https://github.com/NathanVaughn/nathanv.me",
-  "author": "Nathan Vaughn",
-  "license": "MIT",
   "dependencies": {
-    "@gatsbyjs/parcel-namer-relative-to-cwd": "^2.8.0",
-    "@parcel/optimizer-data-url": "^2.8.3",
-    "@parcel/packager-raw-url": "^2.8.3",
-    "@parcel/transformer-inline-string": "^2.8.3",
-    "@parcel/transformer-webmanifest": "^2.8.3",
-    "copyfiles": "^2.4.1",
+    "fslightbox": "^3.4.1",
     "hugo-extended": "^0.111.3",
-    "lazysizes": "^5.3.2",
-    "materialize-css": "^1.0.0",
-    "mixitup": "^3.3.1",
-    "parcel": "^2.8.3",
-    "parcel-transformer-html-datasrc": "^1.3.3",
-    "rimraf": "^4.4.1"
+    "terminal": "github:panr/hugo-theme-terminal#v3.1.2"
   },
   "scripts": {
-    "build:css": "cd themes/nathanv.me/src/ && parcel build assets/css/style.css --dist-dir ../static/",
-    "build:js": "cd themes/nathanv.me/src/ && parcel build assets/js/main.js --dist-dir ../static/",
-    "build:assets": "cd themes/nathanv.me/src/ && parcel build assets/css/style.css assets/js/main.js --dist-dir ../static/",
-    "build": "npm run build:assets && hugo --cleanDestinationDir && rimraf dist && cd public && parcel build index.html && copyfiles robots.txt sitemap.xml ../dist/ && cd .. && node postprocess.js",
-    "lint:css": "stylelint themes/nathanv.me/src/assets/css/style.css",
-    "lint:html": "htmlhint public/index.html",
-    "lint:js": "jshint themes/nathanv.me/src/assets/js/main.js",
-    "server": "http-server dist/"
-  },
-  "devDependencies": {
-    "htmlhint": "^1.1.4",
-    "http-server": "^14.1.1",
-    "jshint": "^2.13.6",
-    "stylelint": "^15.4.0",
-    "stylelint-config-recommended": "^11.0.0"
-  },
-  "browserslist": "> 1%, last 2 versions, not dead"
+    "build": "hugo --cleanDestinationDir",
+    "server": "hugo server"
+  }
 }

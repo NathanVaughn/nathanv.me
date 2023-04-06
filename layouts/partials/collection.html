@@ -1,0 +1,29 @@
+{{/* Adapted from https://github.com/justinnuwin/hugo-theme-terminal/blob/abeedc40fcbe7e97f1cfe0ddd6369df9e54f52ae/layouts/partials/collection.html */}}
+
+<article class="post on-list">
+  {{ partial "post_title.html" . }}
+
+  {{ if .Params.Cover }}
+    {{ .Scratch.Set "cover_type" "post" }}
+    {{ partial "cover.html" . }}
+  {{ end }}
+
+  <div class="post-content">
+    {{ if .Params.showFullContent }}
+    {{ .Content | markdownify }}
+    {{ else if .Description }}
+    {{ .Description | markdownify }}
+    {{ else }}
+    {{ if .Truncated }}
+    {{ .Summary | markdownify }}
+    {{ end }}
+    {{ end }}
+  </div>
+
+  {{ if not .Params.showFullContent }}
+  <div>
+    <a class="read-more button"
+      href="{{ .RelPermalink }}">{{ $.Site.Params.ReadMore }} →</a>
+  </div>
+  {{ end }}
+</article>

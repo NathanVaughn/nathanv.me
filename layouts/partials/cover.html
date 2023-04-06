@@ -1,0 +1,25 @@
+{{ $cover := false }}
+
+{{ if resources.Get .Params.Cover }}
+  {{ $cover = resources.Get .Params.Cover }}
+{{ else if .Resources.Get .Params.Cover }}
+  {{ $cover = (.Resources.Get .Params.Cover) }}
+{{ else if .Page.Resources.Get .Params.Cover }}
+  {{ $cover = .Page.Resources.Get .Params.Cover }}
+{{ else }}
+  {{ errorf "Failed to find cover %q for %q" .Params.Cover . }}
+{{ end }}
+
+{{ $cover := $cover.Fit (default "1000x1000" .Params.coverSize) }}
+{{ $cover_webp := $cover.Fit (printf "%s %s" (default "1000x1000" .Params.coverSize) "webp") }}
+
+<picture>
+<source srcset="{{ $cover_webp.Permalink }}"
+  type="image/webp"
+  alt="{{ .Params.CoverTitle | plainify | default "" }}"
+  title="{{ .Params.CoverTitle | plainify | default "" }}">
+<img src="{{ $cover.Permalink }}"
+  class="{{ .Scratch.Get "cover_type" }}-cover"
+  alt="{{ .Params.CoverTitle | plainify | default "" }}"
+  title="{{ .Params.CoverTitle | plainify | default "" }}">
+</picture>

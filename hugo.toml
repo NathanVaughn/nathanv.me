@@ -1,0 +1,79 @@
+baseurl = "/"
+languageCode = "en-us"
+theme = "terminal"
+themesDir = "node_modules"
+paginate = 5
+
+disableKinds = ["RSS"]
+
+[imaging]
+  quality = 95
+  resampleFilter = "lanczos"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+  contentTypeName = "items"
+  themeColor = "red"
+  showMenuItems = 10
+  homepagePaginateCount = 8
+  fullWidthTheme = false
+  centerTheme = true
+  showPostLogos = true
+
+[languages]
+  [languages.en]
+    title = "Nathan Vaughn"
+    subtitle = ""
+    keywords = ""
+    copyright = ""
+    menuMore = "Show more"
+    readMore = "Read more"
+    newerPosts = "Newer items"
+    olderPosts = "Older items"
+
+    [languages.en.params.logo]
+      logoText = "Nathan Vaughn"
+      logoHomeLink = "/"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/#about"
+        weight = 1
+
+      [[languages.en.menu.main]]
+        identifier = "work-experience"
+        name = "Work Experience"
+        url = "/work-experience"
+        weight = 2
+
+      [[languages.en.menu.main]]
+        identifier = "skills"
+        name = "Skills"
+        url = "/#skills"
+        weight = 3
+
+      [[languages.en.menu.main]]
+        identifier = "projects"
+        name = "Projects"
+        url = "/projects"
+        weight = 4
+
+      [[languages.en.menu.main]]
+        identifier = "education"
+        name = "Education"
+        url = "/#education"
+        weight = 5
+
+      [[languages.en.menu.main]]
+        identifier = "blog"
+        name = "Blog"
+        url = "https://blog.nathanv.me"
+        weight = 10
+        [languages.en.menu.main.params]
+          dontRenderHomepage = true

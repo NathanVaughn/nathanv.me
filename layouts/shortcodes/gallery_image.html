@@ -1,0 +1,17 @@
+{{ $image := .Page.Resources.Get .Params.src }}
+{{ $image := $image.Fit "1000x1000" }}
+{{ $image := $image | resources.Fingerprint }}
+{{ $image_webp := $image.Fit "1000x1000 webp" }}
+
+<a data-fslightbox="gallery" data-class="fslightbox-source" href="#{{ $image.Data.Integrity | safeURL }}">
+    <picture>
+        <source srcset="{{ $image_webp.Permalink }}" type="image/webp" class="center">
+        <img src="{{ $image.Permalink }}" class="center">
+    </picture>
+</a>
+
+{{/* Actual element viewed by the lightbox */}}
+<picture id="{{ $image.Data.Integrity | safeURL }}" class="hidden">
+    <source srcset="{{ $image_webp.Permalink }}" type="image/webp" class="center">
+    <img src="{{ $image.Permalink }}" class="center">
+</picture>

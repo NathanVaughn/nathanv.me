@@ -1,0 +1,31 @@
+{{/* Adapted from https://github.com/justinnuwin/hugo-theme-terminal/blob/abeedc40fcbe7e97f1cfe0ddd6369df9e54f52ae/layouts/partials/section.html */}}
+
+{{ if in "2col-left 2col-right" .Params.Layout }}
+  <div class="section-2col section-{{ .Params.Layout | plainify }}">
+    <div>
+      {{ .Scratch.Set "cover_type" "section" }}
+      {{ partial "cover.html" . }}
+    </div>
+    <div class="section-2col-content post-content">
+      {{- with .Content -}}
+        <div>
+          {{ . }}
+        </div>
+      {{- end -}}
+    </div>
+  </div>
+{{ else }}
+  {{ if .Params.Cover }}
+    {{ .Scratch.Set "cover_type" "section" }}
+    {{ partial "cover.html" . }}
+  {{ end }}
+  <div class="post-content">
+    {{- with .Content -}}
+      <div>
+        {{ . }}
+      </div>
+    {{- end -}}
+  </div>
+{{ end }}
+
+
