@@ -5,13 +5,13 @@ index 0eb1903..470bf7f 100644
 @@ -15,9 +15,9 @@
  {{ $menu := resources.Get "js/menu.js" | js.Build }}
  {{ $prism := resources.Get "js/prism.js" | js.Build }}
- 
+
 -{{ $bundle := slice $menu $prism | resources.Concat "bundle.js" | resources.Minify }}
 +{{ $bundle := slice $menu $prism | resources.Concat "js/bundle.js" | resources.Minify | fingerprint }}
- 
+
 -<script type="text/javascript" src="{{ $bundle.RelPermalink }}"></script>
 +<script type="text/javascript" src="{{ $bundle.RelPermalink }}" integrity="{{ $bundle.Data.Integrity }}"></script>
- 
+
  <!-- Extended footer section-->
  {{ partial "extended_footer.html" . }}
 diff --git a/node_modules/terminal/layouts/partials/head.html b/node_modules/terminal/layouts/partials/head.html
@@ -25,7 +25,7 @@ index 9352d88..95cd69d 100644
 -  {{ $localColorStyles := $localCss | resources.ToCSS }}
 -  <link rel="stylesheet" href="{{ $localColorStyles.Permalink }}">
 +  {{ $localColorStyles := $localCss | resources.ToCSS | fingerprint }}
-+  <link rel="stylesheet" href="{{ $localColorStyles.Permalink }}" integrity="{{ $localColorStyles.Data.Integrity }}">
++  <link rel="stylesheet" href="{{ $localColorStyles.Permalink }}">
  {{ else }}
    <!-- Theme Variables -->
    {{ $colorCss := resources.Get (printf "css/color/%s.scss" ($.Site.Params.ThemeColor | default "orange")) }}
@@ -35,9 +35,9 @@ index 9352d88..95cd69d 100644
 -  <link rel="stylesheet" href="{{ $styles.Permalink }}">
 +  {{ $options := (dict "targetPath" "css/styles.css" "outputStyle" "compressed" "enableSourceMap" true "precision" 6 "includePaths" (slice "node_modules")) }}
 +  {{ $styles := $css | resources.ToCSS $options | fingerprint }}
-+  <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}">
++  <link rel="stylesheet" href="{{ $styles.Permalink }}">
  {{ end }}
- 
+
  <!-- Custom CSS to override theme properties (/static/style.css) -->
 @@ -68,7 +68,7 @@
    {{ if isset $.Site.Params "favicon" }}
