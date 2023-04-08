@@ -8,6 +8,7 @@
   "scripts": {
     "build": "hugo --cleanDestinationDir",
     "server": "hugo server",
+    "make-patch": "patch-package terminal",
     "postinstall": "patch-package"
   }
 }
