@@ -1,13 +1,13 @@
 {
   "dependencies": {
-    "cross-env": "^7.0.3",
+    "cross-spawn": "^7.0.3",
     "fslightbox": "^3.4.1",
     "hugo-extended": "^0.111.3",
     "patch-package": "^6.5.1",
     "terminal": "github:panr/hugo-theme-terminal#v3.1.2"
   },
   "scripts": {
-    "build": "cross-env HUGO_BASEURL=$CF_PAGES_URL hugo --cleanDestinationDir --minify",
+    "build": "node build.js",
     "server": "hugo server",
     "make-patch": "patch-package terminal",
     "postinstall": "patch-package"
