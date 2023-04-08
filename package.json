@@ -7,7 +7,7 @@
     "terminal": "github:panr/hugo-theme-terminal#v3.1.2"
   },
   "scripts": {
-    "build": "cross-env HUGO_BASEURL=https://nathanv.me hugo --cleanDestinationDir",
+    "build": "cross-env HUGO_BASEURL=$CF_PAGES_URL hugo --cleanDestinationDir --minify",
     "server": "hugo server",
     "make-patch": "patch-package terminal",
     "postinstall": "patch-package"
