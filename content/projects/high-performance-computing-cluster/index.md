@@ -7,7 +7,7 @@ cover = "card.jpg"
 tags = ["MATLAB", "STAR-CCM+", "CentOS"]
 description = "I assisted in designing and constructing a [Beowulf-style](https://en.wikipedia.org/wiki/Beowulf_cluster) compute cluster for PrISUm out of recycled hardware."
 showFullContent = false
-weight = 7
+weight = 70
 +++
 
 I assisted in designing and constructing a

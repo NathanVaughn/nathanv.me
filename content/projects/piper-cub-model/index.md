@@ -6,7 +6,7 @@ subtitle = ""
 tags = ["SOLIDWORKS"]
 description = "I modelled a Piper J-3 Cub as part of a team for a class project. All work was done in SOLIDWORKS."
 showFullContent = false
-weight = 10
+weight = 100
 +++
 
 I modelled a Piper J-3 Cub as part of a team for a class project.

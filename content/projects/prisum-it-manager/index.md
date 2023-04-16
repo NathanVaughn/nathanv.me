@@ -16,7 +16,7 @@ description = """
 """
 showFullContent = false
 dontRenderOnHomepage = true
-weight = 9
+weight = 90
 +++
 
 - Implemented IT asset tracking and management software

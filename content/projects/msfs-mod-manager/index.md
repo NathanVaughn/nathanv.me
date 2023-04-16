@@ -6,7 +6,7 @@ subtitle = ""
 tags = ["Python", "Qt"]
 description = "MSFS Mod Manager is an external mod manager for the new Microsoft Flight Simulator."
 showFullContent = false
-weight = 1
+weight = 10
 +++
 
 MSFS Mod Manager is an external mod manager for the new Microsoft Flight Simulator.

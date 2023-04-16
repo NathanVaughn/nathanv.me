@@ -6,7 +6,7 @@ subtitle = ""
 tags = ["Docker", "GitHub", "Python"]
 description = "I have created and maintain a Docker image for popular web-based genealogy software [Webtrees](https://webtrees.net/)."
 showFullContent = false
-weight = 5
+weight = 50
 +++
 
 I have created and maintain a Docker image for popular web-based genealogy software

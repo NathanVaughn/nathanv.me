@@ -9,6 +9,9 @@
         <img src="{{ $image.Permalink }}" class="center">
     </picture>
 </a>
+{{ with .Params.caption }}
+<p class="caption text-center">{{ . }}</p>
+{{ end }}
 
 {{/* Actual element viewed by the lightbox */}}
 <picture id="{{ $image.Data.Integrity | safeURL }}" class="hidden">

@@ -1,5 +1,5 @@
 +++
-cover = "tru_intern_photo.jpg"
+cover = "PXL_20221127_194403484.jpg"
 coverTitle = "Me running tests in a Citation Latitude flight simulator"
 layout = "2col-left"
 +++

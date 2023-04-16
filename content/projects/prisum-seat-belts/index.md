@@ -7,7 +7,7 @@ subtitle = "Seats and Seatbelts Project Lead"
 tags = ["SOLIDWORKS", "FEA"]
 description = ""
 showFullContent = true
-weight = 11
+weight = 110
 +++
 
 - Designed seatbelt anchorages and ran finite element analysis to meet race regulations

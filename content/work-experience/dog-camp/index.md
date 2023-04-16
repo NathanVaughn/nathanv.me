@@ -14,4 +14,5 @@ showFullContent = true
 weight = 9
 +++
 
-I was responsible for all cleaning tasks along with feeding and caring for the dogs.
+As a kennel tech, I was responsible for all cleaning tasks along with feeding and
+caring for the dogs in a section of the kennel during a shift.

@@ -6,7 +6,7 @@ subtitle = ""
 tags = ["Python", "Flask"]
 description = "pyQstat is a small Python-based web app to display Sun Grid Engine (and forks) statistics."
 showFullContent = false
-weight = 6
+weight = 60
 +++
 
 pyQstat is a small Python-based web app to display Sun Grid Engine (and forks)

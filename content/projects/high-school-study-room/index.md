@@ -6,7 +6,7 @@ subtitle = ""
 tags = ["SOLIDWORKS"]
 description = "I made renderings of a concept study room during high school. The renderings were created with SOLIDWORKS. This study room ended up getting funding and was made a reality."
 showFullContent = false
-weight = 12
+weight = 120
 dontRenderOnHomepage = true
 +++
 

@@ -63,3 +63,13 @@
 .post-website {
     overflow-wrap: break-word;
 }
+
+// center text
+.text-center {
+    text-align: center;
+}
+
+// image caption
+.caption {
+    color: mix($accent, #afafaf, 2%);
+}

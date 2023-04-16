@@ -6,7 +6,7 @@ subtitle = ""
 tags = []
 description = ""
 showFullContent = true
-weight = 4
+weight = 40
 +++
 
 On my blog, I make posts about various projects or technical challenges

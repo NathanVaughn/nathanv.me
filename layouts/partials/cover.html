@@ -16,13 +16,13 @@
 <picture>
 <source srcset="{{ $cover_webp.Permalink }}"
   type="image/webp"
-  width="{{ $cover_webp.Width }}"
-  height="{{ $cover_webp.Height }}"
+  {{/*  width="{{ $cover_webp.Width }}"
+  height="{{ $cover_webp.Height }}"  */}}
   alt="{{ .Params.CoverTitle | plainify | default "" }}"
   title="{{ .Params.CoverTitle | plainify | default "" }}">
 <img src="{{ $cover.Permalink }}"
-  width="{{ $cover.Width }}"
-  height="{{ $cover.Height }}"
+  {{/*  width="{{ $cover.Width }}"
+  height="{{ $cover.Height }}"  */}}
   class="{{ .Scratch.Get "cover_type" }}-cover"
   alt="{{ .Params.CoverTitle | plainify | default "" }}"
   title="{{ .Params.CoverTitle | plainify | default "" }}">
