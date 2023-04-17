@@ -3,6 +3,7 @@ title = "Senior Design"
 website = ""
 daterange = "Spring 2020 - Fall 2020"
 subtitle = ""
+cover = "cover.png"
 tags = ["SOLIDWORKS"]
 description = """For my senior design, our team had to design, build, and fly
 an R/C aircaft designed to deliver a payload to a target a couple of miles away
@@ -13,7 +14,7 @@ weight = 15
 
 For my senior design, our team had to design, build, and fly an R/C aircraft designed
 to deliver a payload to a target a couple of miles away and return back to base.
-There were many design limitations in this project including a 9-foot maximum wingspan
+There were many design limitations in this project including a 7.5-foot maximum wingspan
 and a 12-pound maximum takeoff weight. The payload was around shoebox-sized, weighed
 4 pounds, the aircraft had to fit inside a Pelican case before launch,
 and our budget was only about $200.
