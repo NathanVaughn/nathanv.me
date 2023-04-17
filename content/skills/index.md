@@ -1,6 +1,6 @@
 +++
 cover = "PXL_20221127_194403484.jpg"
-coverTitle = "Me running tests in a Citation Latitude flight simulator"
+coverTitle = "Building a drone from scratch"
 layout = "2col-left"
 +++
 
