@@ -36,9 +36,9 @@ the [KC-46](https://en.wikipedia.org/wiki/Boeing_KC-46_Pegasus) Remote Vision Sy
 
 {{< gallery_image src="kc-46a.jpg" caption="An example of two operators controlling the air-to-air refueling boom" >}}
 
-This system allowed operators to control the air-to-air refueling boom of the KC-46
+This system allows operators to control the air-to-air refueling boom of the KC-46
 while sitting comfortably at the front of the aircraft with more situational awareness.
-The operators wore 3D glasses with the primary display being 3D to get depth perception.
+The operators wear 3D glasses with the primary display being 3D to get depth perception.
 
 I was able to build a small mockup of this system in our lab with 2 Logitech joysticks,
 a [desktop 5-axis robot](https://dorna.ai/), and some Python code. This proved

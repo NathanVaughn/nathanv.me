@@ -14,4 +14,4 @@ to writing software for commercial aircraft avionics. I'm a big fan of aviation,
 building computers, and also volunteer my time with robotics competitions for
 high-school students.
 
-[Resume](https://nthnv.me/resume) • [Other Links](https://links.nathanv.me)
+[One Page Resume](https://nthnv.me/resume) • [Other Links](https://links.nathanv.me)
