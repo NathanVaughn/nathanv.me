@@ -9,7 +9,7 @@ showFullContent = false
 weight = 100
 +++
 
-I modelled a Piper J-3 Cub as part of a team for a class project.
+I modeled a Piper J-3 Cub as part of a team for a class project.
 All work was done in SOLIDWORKS.
 
 {{< image_gallery >}}

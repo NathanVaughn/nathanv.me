@@ -9,13 +9,13 @@ phoneNumber = ""
 dontRenderOnHomepage = true
 tags = ["SOLIDWORKS"]
 keywords = []
-description = """I modelled an apparatus to channel light into a series of detectors
+description = """I modeled an apparatus to channel light into a series of detectors
 for an experiment a professor was working on in the Physics department."""
 showFullContent = false
 weight = 4
 +++
 
-I modelled an apparatus to channel light into a series of detectors for an experiment
+I modeled an apparatus to channel light into a series of detectors for an experiment
 a professor was working on in the Physics department. At the base is a 10cm x 10cm
 calorimeter of 47 x 47 fiber optic fibers. The light coming out of these fibers needed
 to be funneled together into a 5 x 5 array of detectors. Multiple different variations

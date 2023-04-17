@@ -11,6 +11,6 @@ dontRenderOnHomepage = true
 weight = 80
 +++
 
-- Developed airbrake system to allow rocket to precisely reach target altitude
+- Developed airbrake system to allow the rocket to precisely reach target altitude
 - Used computational fluid dynamics to evaluate potential airbrake performance at different altitudes, velocities, and deployment angles
 - Developed drafting standards and drafted mechanical components

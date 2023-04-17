@@ -20,8 +20,8 @@ weight = 90
 +++
 
 - Implemented IT asset tracking and management software
-- Administered and managed Windows Server for team which ran Autodesk Vault
-- Devised new backup system for Autodesk Vault server
+- Administered and managed Windows Server for the team which ran Autodesk Vault
+- Devised a new backup system for AutoDesk Vault server
 - Coordinated with university IT to implement new wiki software for the team to help improve collaboration and knowledge transfer
 - Created helpdesk and provided hardware and software support for team computers
 - Worked with university IT to create, deploy, and update standardized Windows images for team computers with SCCM

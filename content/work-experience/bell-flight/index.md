@@ -25,7 +25,7 @@ At Bell, I was primarily a Python developer within the
 [Innovation group](https://www.bellflight.com/experience/innovation).
 
 Initially, I worked with [Microsoft AirSim](https://github.com/microsoft/AirSim)
-to create training data for  object recognition machine learning.
+to create training data for object recognition machine learning.
 Some of this work was featured in the Microsoft Ignite 2021 conference
 during the segment on AI:
 
@@ -37,7 +37,7 @@ provide feedback. A lot of this work is mentioned in this article:
 
 [https://news.microsoft.com/source/features/innovation/microsoft-launches-project-airsim-an-end-to-end-platform-to-accelerate-autonomous-flight/](https://news.microsoft.com/source/features/innovation/microsoft-launches-project-airsim-an-end-to-end-platform-to-accelerate-autonomous-flight/)
 
-I began to work more on business modeling and fleet simulation, and was the scrum
+I began to work more on business modeling and fleet simulation and was the scrum
 master of the team. With the help of Azure engineers, we were able to re-architect a
 data analysis workflow that had been set up before I joined. We had a multi-terabyte
 SQL database in Azure that was extremely expensive and our queries were painfully slow.
@@ -51,15 +51,15 @@ This reduced our annual Azure bill by over $30,000.
 
 Additionally, I implemented and managed nearly all of Innovation's CI/CD with
 Azure Pipelines and on-premises build agents. When I started, automated testing,
-deployment, and static analysis of Python code was nonexistent. I was able to create
+deployment, and static analysis of Python code were nonexistent. I was able to create
 a set of standard development tools and settings to use on every project to
 keep code consistent and high-quality. As the need for sharing Python code
 increased, I was able to develop and deploy many internal packages to our
-JFrog Artifactory server. This became an efficient to deploy software to other
-internal customers as well, while maintaining export compliance.
+JFrog Artifactory server. This became an efficient way to deploy software to other
+internal customers while maintaining export compliance.
 
 I was heavily involved in Bell's Advanced Vertical Robotics competition. This is a
-high school drone competition where teams are sent a kit of parts and and follow
+high school drone competition where teams are sent a kit of parts and follow
 instructions on how to assemble, test, and fly their drone from scratch. Once they
 get their drone flying, they're expected to modify the drone to complete the challenges
 given in the game.
