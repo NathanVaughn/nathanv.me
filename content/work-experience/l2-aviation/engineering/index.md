@@ -22,8 +22,8 @@ existing Boeing 767 Large Display System (LDS) kit to work in 757 aircraft for U
 
 {{< gallery_image src="P1040898.JPG" caption="A brand new FedEx 767 with the LDS avionics" >}}
 
-As UPS's fleet of 757s is a mashup of aircraft from different years and sources, my
-job was to redesign this kit to be universal across their fleet. This required
+As UPS's fleet of 757 aircraft is a mashup of aircraft from different years and sources,
+my job was to redesign this kit to be universal across their fleet. This required
 lots of digging through aircraft documentation and communication with UPS maintenance
 directly.
 

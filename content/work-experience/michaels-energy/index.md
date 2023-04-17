@@ -28,7 +28,7 @@ no way to phone home, and each device needed to be manually inspected individual
 
 I was assigned approximately 3600 devices in southeast Iowa to inspect. I was totally
 on my own the entire summer. At every single house, I would knock on the door to let
-the customer know I was there, then find the device(s) and ensure that their status
+the customer know why I was there, then find the device(s) and ensure that their status
 lights showed they were operating correctly, and log this in a database.
 
 As most of my job was the

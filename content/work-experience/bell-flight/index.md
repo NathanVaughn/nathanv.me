@@ -15,7 +15,7 @@ I worked as a Python developer within [Bell's Innovation group](https://www.bell
 - Developed a process for repeatable mass deployments of mission software onto air-launched drones
 - Participated in test events and provided on-site customer support for mission-critical software
 - Simplified Python code distribution and re-usability using JFrog Artifactory
-- Volunteered with the Bell Vertical Robotics Competition for high-school students as the lead software engineer writing control software, documentation, and answering student questions
+- Volunteered with the Bell Advanced Vertical Robotics competition for high-school students as the lead software engineer writing control software, documentation, and answering student questions
 """
 showFullContent = false
 weight = 2
@@ -55,8 +55,8 @@ deployment, and static analysis of Python code were nonexistent. I was able to c
 a set of standard development tools and settings to use on every project to
 keep code consistent and high-quality. As the need for sharing Python code
 increased, I was able to develop and deploy many internal packages to our
-JFrog Artifactory server. This became an efficient way to deploy software to other
-internal customers while maintaining export compliance.
+JFrog Artifactory server. This became an efficient way to deploy software within
+our team and to other internal customers while maintaining export compliance.
 
 I was heavily involved in Bell's Advanced Vertical Robotics competition. This is a
 high school drone competition where teams are sent a kit of parts and follow
@@ -78,18 +78,18 @@ different software modules that all had to work together correctly. This include
 code to get data from the tracking camera, code to process video data looking
 for [AprilTags](https://april.eecs.umich.edu/software/apriltag) placed on the game
 court, sensor fusion code, code to interact with the flight controller, code
-to interact with the Arduino, etc. We ended up with pub/sub architecture
-based on [MQTT](https://mqtt.org/) where software modules were independent Docker
-containers that could subscribe to, or publish JSON data. This allowed for a very
+to interact with the Arduino, and more. We ended up with pub/sub architecture
+built on [MQTT](https://mqtt.org/) where software modules were independent Docker
+containers that could subscribe to, or publish, JSON data. This allowed for a very
 testable design, and plug-and-play architecture that easily allowed students
 to write their own autonomy code.
 
 Finally, for seven weeks, I was a subcontractor for Raytheon, brought in to compile,
 configure, and deploy their mission software to a large number of
 real and virtual [air-launched effects](https://areai.com/altius-600-2/).
-This was challenging, as the computer network connecting all of the pieces was
+This was challenging, as the network connecting all of the devices was
 completely isolated from the outside world. I developed a system to bundle
-Raytheon's software in a Docker container and utilize
+Raytheon's software in a Docker container and utilized
 [Ansible](https://www.ansible.com/) to deploy it. This involved spending three
 weeks in two separate trips to the US Army Yuma Proving Grounds for live tests.
 

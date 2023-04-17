@@ -15,15 +15,15 @@ weight = 15
 For my senior design, our team had to design, build, and fly an R/C aircraft designed
 to deliver a payload to a target a couple of miles away and return back to base.
 There were many design limitations in this project including a 7.5-foot maximum wingspan
-and a 12-pound maximum takeoff weight. The payload was around shoebox-sized, weighed
+and a 12-pound maximum takeoff weight. The payload was about shoebox-sized, weighed
 4 pounds, the aircraft had to fit inside a Pelican case before launch,
-and our budget was only about $200.
+and our budget was only around $200.
 
 Creating a design to drop a payload mid-flight that
-represented a 1/3 of the aircraft weight and could be repeatably disassembled
-and reassembled was no easy feat. I used SOLIDWORKS and did all of CAD modeling
-for this project. Everything was parametrically designed so that quick modifications
-could be made to test with CFD.
+represented 1/3rd of the aircraft's fully loaded weight and could be repeatably
+disassembled and reassembled was no easy feat. I used SOLIDWORKS and did all of CAD
+modeling for this project. Everything was parametrically designed so that quick
+modifications could be made to test with CFD.
 
 {{< image_gallery >}}
 
@@ -36,8 +36,8 @@ could be made to test with CFD.
 
 The final aircraft came out extremely close to the CAD model. The detailed model
 helped a lot with being able to use a CNC to machine foam to the precise
-shapes required. While the design did up having some Cg issues and required
-exceeded the maximum takeoff weight to correct this, the aircraft did work, and we
+shapes required. While the aircraft did up end up having some Cg issues and required
+exceeding the maximum takeoff weight to correct this, the aircraft did work, and we
 were one of the few teams to reliably have our payload separate in-flight.
 
 {{< image_gallery >}}

@@ -14,18 +14,18 @@ showFullContent = false
 weight = 3
 +++
 
-Unfortunately, this internship was shortened to 6 weeks due to COVID. While I was
+Unfortunately, this internship was shortened to only 6 weeks due to COVID. While I was
 there, a new Cessna Citation Latitude simulator was being finished.
-I ran through the entire all of the manual test procedures that had been prepared
-and identified issues in the software and test procedures. This was to ensure there
-would be surprises once representatives from the customer arrived to perform the same
+I ran through all of the manual test procedures that had been prepared
+and identified issues in the software and tests. This was to make sure there
+would be no surprises once representatives from the customer arrived to perform the same
 tests and ensure that the simulator correctly replicated the behavior of the real
 aircraft.
 
 {{< gallery_image src="IMG_20200709_142758.jpg" >}}
 
-As I was the one most familiar with the tests, I then ran through the test procedures
-again with the flight instructors from the customer and recorded feedback.
+Once the flight instructors from the customer arrived to inspect the simulator,
+I went through the test procedures with them and recorded their feedback.
 
 Not long after my internship, the Citation Latitude simulator was successfully
 delivered to FlightSafety International in Farnborough:
