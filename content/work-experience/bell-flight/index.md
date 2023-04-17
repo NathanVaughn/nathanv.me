@@ -45,9 +45,9 @@ By leveraging
 [Parquet files](https://parquet.apache.org/), [Databricks](https://www.databricks.com/),
 and [Azure Batch](https://azure.microsoft.com/en-us/products/batch), we were able
 to analyze data much more quickly at a fraction of the cost.
-The monthly data storage cost became negligible and we were able to spin up and down
-servers to analyze data automatically on-demand to process data in parallel.
-This reduced our annual Azure bill by over $30,000.
+The monthly data storage cost became negligible and we were able to spin up
+servers automatically on-demand to process data in parallel, and then shut them down
+when not in use. This reduced our annual Azure bill by over $30,000.
 
 Additionally, I implemented and managed nearly all of Innovation's CI/CD with
 Azure Pipelines and on-premises build agents. When I started, automated testing,
