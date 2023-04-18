@@ -5,9 +5,7 @@ daterange = "Spring 2020 - Fall 2020"
 subtitle = ""
 cover = "cover.png"
 tags = ["SOLIDWORKS"]
-description = """For my senior design, our team had to design, build, and fly
-an R/C aircaft designed to deliver a payload to a target a couple of miles away
-and return back to base."""
+description = """For my senior design, our team had to design, build, and fly an R/C aircaft designed to deliver a payload to a target a couple of miles away and return back to base."""
 showFullContent = false
 weight = 15
 +++
