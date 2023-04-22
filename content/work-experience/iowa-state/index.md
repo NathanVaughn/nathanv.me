@@ -25,10 +25,21 @@ and glue them together into separate "towers". I made all of the parts in SOLIDW
 with a lot of lofts and different configurations (as 47 doesn't split into 5 nicely,
 the groupings of fiber optic fibers had to be differing sizes).
 
+Here are some images from SOLIDWORKS:
+
 {{< image_gallery >}}
 
 {{< gallery_image src="top.jpg" >}}
 {{< gallery_image src="all-in-one.jpg" >}}
 {{< gallery_image src="individual.jpg" >}}
+
+{{< /image_gallery >}}
+
+And here are some images from the first prototype:
+
+{{< image_gallery >}}
+
+{{< gallery_image src="IMG_20200227_110443.jpg" >}}
+{{< gallery_image src="IMG_20200227_110452.jpg" >}}
 
 {{< /image_gallery >}}

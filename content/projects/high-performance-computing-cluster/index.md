@@ -22,4 +22,17 @@ by the team for computational fluid dynamics simulations with STAR-CCM+ and MATL
 optimization problems. When the cluster was not in use, it contributed to community
 grid computing projects.
 
-{{< gallery_image src="view.jpg" >}}
+This is how I originally found the cluster when no one on the team knew how it
+worked or how to use it:
+
+{{< gallery_image src="IMG_20190206_145534.jpg" >}}
+
+This is after we (myself and [Michael Wrona](https://mwrona.com)) were able
+to tear down the server rack completely, and refurbish and rebuild all the computers:
+
+{{< image_gallery >}}
+{{< gallery_image src="IMG_20190425_114936.jpg" >}}
+{{< gallery_image src="IMG_20190217_131731.jpg" >}}
+{{< gallery_image src="IMG_20190224_125152.jpg" >}}
+{{< gallery_image src="IMG_20190414_214315.jpg" >}}
+{{< /image_gallery >}}
