@@ -1,5 +1,5 @@
 +++
-cover = "PXL_20221127_194403484.jpg"
+cover = "PXL_20221127_194403484_cropped.jpg"
 coverTitle = "Building a drone from scratch"
 layout = "2col-left"
 +++
@@ -14,11 +14,16 @@ layout = "2col-left"
 
 ## Certifications
 
+- SOLIDWORKS Mechanical Design Professional
+  - License [C-4E3UMXYK2A](https://nthnv.me/cswp)
+- SOLIDWORKS Mechanical Design Associate
+  - License [C-P29LMTJLE2](https://nthnv.me/cswa)
 - Ham Radio Technician Class License
   - [Callsign KN4JJJ](https://nthnv.me/ham)
 - Level 1 ShopBot Basic CNC Certification
-  - [Certificate](https://nthnv.me/shopbot)
-- SOLIDWORKS Mechanical Design Associate
-  - License [C-P29LMTJLE2](https://nthnv.me/cswa)
-- SOLIDWORKS Mechanical Design Professional
-  - License [C-4E3UMXYK2A](https://nthnv.me/cswp)
+  - [Certificate](/skills/NathanVaughnShopbot.pdf)
+
+## Patents
+
+- Stereoscopic camera alignment via laser projection
+  - [US11360375B1](https://patents.google.com/patent/US11360375B1/)
