@@ -26,4 +26,4 @@ layout = "2col-left"
 ## Patents
 
 - Stereoscopic camera alignment via laser projection
-  - [US11360375B1](https://patents.google.com/patent/US11360375B1/)
+  - [US11360375B1](https://nthnv.me/patent)
