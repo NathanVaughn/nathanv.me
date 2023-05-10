@@ -13,7 +13,7 @@ description = """
 - Developed and maintained tests for Ada avionics software to ensure DO-178B certification conformity
 - Worked with requirements and traceability from high-level system functionality down to software code
 - Prototyped improvements to the KC-46 Remote Vision System, including developing a working air-to-air refueling scale model with a 5-axis robot
-- Co-invented a laser projection system to calibrate stereoscopic cameras ([US11360375B1](https://nthnv.me/patent))
+- Co-invented a laser projection system to calibrate stereoscopic cameras ([US11360375B1](https://links.nathanv.me/patent))
 """
 showFullContent = false
 weight = 5
@@ -48,7 +48,7 @@ Air Force Research Lab.
 Finally, at the end of my co-op, I co-invented a system with the aforementioned
 principal engineer to facilitate the calibration of two stereoscopic cameras
 by using a single laser projected on a surface. This was awarded as patent
-[US11360375B1](https://nthnv.me/patent). I wrote the original
+[US11360375B1](https://links.nathanv.me/patent). I wrote the original
 description of the invention and prepared all the diagrams when it was originally
 submitted internally for review.
 

@@ -15,15 +15,15 @@ layout = "2col-left"
 ## Certifications
 
 - SOLIDWORKS Mechanical Design Professional
-  - License [C-4E3UMXYK2A](https://nthnv.me/cswp)
+  - License [C-4E3UMXYK2A](https://links.nathanv.me/cswp)
 - SOLIDWORKS Mechanical Design Associate
-  - License [C-P29LMTJLE2](https://nthnv.me/cswa)
+  - License [C-P29LMTJLE2](https://links.nathanv.me/cswa)
 - Ham Radio Technician Class License
-  - [Callsign KN4JJJ](https://nthnv.me/ham)
+  - [Callsign KN4JJJ](https://links.nathanv.me/ham)
 - Level 1 ShopBot Basic CNC Certification
   - [Certificate](/skills/NathanVaughnShopbot.pdf)
 
 ## Patents
 
 - Stereoscopic camera alignment via laser projection
-  - [US11360375B1](https://nthnv.me/patent)
+  - [US11360375B1](https://links.nathanv.me/patent)
