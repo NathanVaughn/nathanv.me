@@ -1,6 +1,6 @@
 +++
 title = "Emerson"
-website = "https://www.emerson.com/en-us/automation/fisher"
+website = "https://emerson.com/"
 logo = "emerson_logo.png"
 daterange = "Aug 2022 - Present"
 subtitle = "Product Engineer"
