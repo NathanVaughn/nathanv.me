@@ -23,7 +23,7 @@ At Collins Aerospace, I mostly worked on a team that developed the
 [Fusion Flight Management System](https://www.collinsaerospace.com/what-we-do/industries/business-aviation/flight-deck/pro-line-fusion)
 for military customers. This went into aircraft such as the
 [Embraer KC-390](https://en.wikipedia.org/wiki/Embraer_C-390_Millennium)
-and [Airbus C-95](https://en.wikipedia.org/wiki/EADS_CASA_C-295). On this team,
+and [Airbus C-295](https://en.wikipedia.org/wiki/EADS_CASA_C-295). On this team,
 I contributed to all parts of the engineering "V", including requirements and
 traceability, writing unit and integration tests, and actual flight software written in
 Ada. All of this fell under [DO-178B](https://en.wikipedia.org/wiki/DO-178B)
