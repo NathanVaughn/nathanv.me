@@ -73,3 +73,8 @@
 .caption {
     color: mix($accent, #afafaf, 2%);
 }
+
+/* Allow links to be word broken */
+.post-content a {
+    word-break: break-word;
+}

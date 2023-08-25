@@ -39,18 +39,19 @@ enableRobotsTXT = true
 
 [languages]
   [languages.en]
-    title = "Nathan Vaughn"
-    subtitle = "Nathan Vaughn's corner of the internet"
-    keywords = ""
-    copyright = ""
+    [languages.en.params]
+      title = "Nathan Vaughn"
+      subtitle = "Nathan Vaughn's corner of the internet"
+      keywords = ""
+      copyright = ""
 
-    # menu text when items are hidden
-    menuMore = "Show more"
-    # bottom of summary text when the whole content is hidden
-    readMore = "Read more"
-    # on list pages
-    newerPosts = "Newer items"
-    olderPosts = "Older items"
+      # menu text when items are hidden
+      menuMore = "Show more"
+      # bottom of summary text when the whole content is hidden
+      readMore = "Read more"
+      # on list pages
+      newerPosts = "Newer items"
+      olderPosts = "Older items"
 
     [languages.en.params.logo]
       logoText = "Nathan Vaughn"
