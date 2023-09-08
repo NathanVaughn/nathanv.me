@@ -39,8 +39,9 @@ enableRobotsTXT = true
 
 [languages]
   [languages.en]
-    [languages.en.params]
       title = "Nathan Vaughn"
+
+    [languages.en.params]
       subtitle = "Nathan Vaughn's corner of the internet"
       keywords = ""
       copyright = ""
