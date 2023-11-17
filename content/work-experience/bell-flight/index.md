@@ -16,10 +16,10 @@ I worked as a Python developer within [Bell's Innovation group](https://www.bell
 - Participated in test events and provided on-site customer support for mission-critical software
 - Simplified Python code distribution and re-usability using JFrog Artifactory
 - Volunteered with the Bell Advanced Vertical Robotics competition for high-school students as the lead software engineer writing control software, documentation, and answering student questions
-"""
-showFullContent = false
-weight = 2
-+++
+  """
+  showFullContent = false
+  weight = 2
+  +++
 
 At Bell, I was primarily a Python developer within the
 [Innovation group](https://www.bellflight.com/experience/innovation).
@@ -86,7 +86,7 @@ to write their own autonomy code.
 
 Finally, for seven weeks, I was a subcontractor for Raytheon, brought in to compile,
 configure, and deploy their mission software to a large number of
-real and virtual [air-launched effects](https://areai.com/altius-600-2/).
+real and virtual [air-launched effects](https://www.anduril.com/hardware/altius/).
 This was challenging, as the network connecting all of the devices was
 completely isolated from the outside world. I developed a system to bundle
 Raytheon's software in a Docker container and utilized
