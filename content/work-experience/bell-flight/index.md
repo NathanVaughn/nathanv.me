@@ -16,10 +16,10 @@ I worked as a Python developer within [Bell's Innovation group](https://www.bell
 - Participated in test events and provided on-site customer support for mission-critical software
 - Simplified Python code distribution and re-usability using JFrog Artifactory
 - Volunteered with the Bell Advanced Vertical Robotics competition for high-school students as the lead software engineer writing control software, documentation, and answering student questions
-  """
-  showFullContent = false
-  weight = 2
-  +++
+"""
+showFullContent = false
+weight = 2
++++
 
 At Bell, I was primarily a Python developer within the
 [Innovation group](https://www.bellflight.com/experience/innovation).
