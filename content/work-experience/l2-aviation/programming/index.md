@@ -32,4 +32,4 @@ utilized Qt, and was backed by a Microsoft SQL Server.
 Additionally, I was tasked with setting up and configuring their new AutoDesk Vault
 server. I created all the workflows, set all the policies and got everything organized.
 This was very helpful, as I utilized this a lot in my
-[next summer there]({{< relref "../engineering" >}}).
+[next summer there]({{< relref "work-experience/l2-aviation/engineering" >}}).
