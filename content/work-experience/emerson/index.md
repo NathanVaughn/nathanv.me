@@ -1,6 +1,6 @@
 +++
 title = "Emerson"
-website = "https://emerson.com/"
+website = "https://www.emerson.com/"
 logo = "emerson_logo.png"
 daterange = "Aug 2022 - Present"
 subtitle = "Product Engineer"
