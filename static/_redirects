@@ -1,3 +1,6 @@
 /link/* https://links.nathanv.me/:splat 301
 /blog/* https://blog.nathanv.me/:splat 301
 /pay/* https://pay.nathanv.me/:splat 301
+
+/work-experience/tru-simulation-training /work-experience/tru-simulation 301
+/work-experience/rockwell-collins /work-experience/collins-aerospace 301
