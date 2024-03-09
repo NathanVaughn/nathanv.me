@@ -3,7 +3,7 @@
     "@iarna/toml": "^2.2.5",
     "cross-spawn": "^7.0.3",
     "fslightbox": "^3.4.1",
-    "hugo-extended": "^0.123.6",
+    "hugo-extended": "^0.123.8",
     "patch-package": "^8.0.0",
     "png-to-ico": "^2.1.8",
     "terminal": "github:panr/hugo-theme-terminal#v3.1.2"
