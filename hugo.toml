@@ -2,21 +2,14 @@ baseurl = "/"
 languageCode = "en-us"
 theme = "terminal"
 themesDir = "node_modules"
-googleAnalytics = "G-VBK91PK943"
 disableKinds = ["RSS"]
 paginate = 5
 enableRobotsTXT = true
 
-# google Analytics privacy
-[privacy]
-  [privacy.googleAnalytics]
-    anonymizeIP = true
-    respectDoNotTrack = true
-
 # better resampling algorithm
 [imaging]
   quality = 95
-  resampleFilter = "lanczos"
+  resampleFilter = "Lanczos"
 
 # allow for HTML in markdown
 [markup]
