@@ -1,94 +1,94 @@
-baseurl = "/"
-languageCode = "en-us"
-theme = "terminal"
-themesDir = "node_modules"
-disableKinds = ["RSS"]
-paginate = 5
+baseurl         = "/"
+languageCode    = "en-us"
+theme           = "hugo-theme-terminal-mod"
+disableKinds    = ["RSS"]
+paginate        = 5
 enableRobotsTXT = true
 
 # better resampling algorithm
 [imaging]
-  quality = 95
+  quality        = 95
   resampleFilter = "Lanczos"
 
 # allow for HTML in markdown
 [markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
+[markup.goldmark]
+[markup.goldmark.renderer]
+  unsafe = true
 
 [params]
   # appearance
-  themeColor = "red"
+  themeColor     = "red"
   fullWidthTheme = false
-  centerTheme = true
+  centerTheme    = true
 
   # homepage settings
   homepagePaginateCount = 8
-  showPostLogos = true
+  showPostLogos         = true
 
   # top menu bar
   showMenuItems = 10
 
 [languages]
-  [languages.en]
-      title = "Nathan Vaughn"
+[languages.en]
+  title = "Nathan Vaughn"
 
-    [languages.en.params]
-      subtitle = "Nathan Vaughn's corner of the internet"
-      keywords = ""
-      copyright = ""
+[languages.en.params]
+  subtitle  = "Nathan Vaughn's corner of the internet"
+  keywords  = ""
+  copyright = ""
 
-      # menu text when items are hidden
-      menuMore = "Show more"
-      # bottom of summary text when the whole content is hidden
-      readMore = "Read more"
-      # on list pages
-      newerPosts = "Newer items"
-      olderPosts = "Older items"
+  # menu text when items are hidden
+  menuMore = "Show more"
+  # bottom of summary text when the whole content is hidden
+  readMore = "Read more"
+  # on list pages
+  newerPosts = "Newer items"
+  olderPosts = "Older items"
 
-    [languages.en.params.logo]
-      logoText = "Nathan Vaughn"
+[languages.en.params.logo]
+  logoText = "Nathan Vaughn"
 
-    # menu items
-    # /item will create lists
-    # /#item will create a single page
-    # anything else will be a direct link
-    [languages.en.menu]
-      [[languages.en.menu.main]]
-        identifier = "about"
-        name = "About"
-        url = "/#about"
-        weight = 1
+# menu items
+# /item will create lists
+# /#item will create a single page
+# anything else will be a direct link
+[languages.en.menu]
+[[languages.en.menu.main]]
+  identifier = "about"
+  name       = "About"
+  url        = "/#about"
+  weight     = 1
 
-      [[languages.en.menu.main]]
-        identifier = "work-experience"
-        name = "Work Experience"
-        url = "/work-experience"
-        weight = 2
+[[languages.en.menu.main]]
+  identifier = "work-experience"
+  name       = "Work Experience"
+  url        = "/work-experience"
+  weight     = 2
 
-      [[languages.en.menu.main]]
-        identifier = "skills"
-        name = "Skills"
-        url = "/#skills"
-        weight = 3
+[[languages.en.menu.main]]
+  identifier = "skills"
+  name       = "Skills"
+  url        = "/#skills"
+  weight     = 3
 
-      [[languages.en.menu.main]]
-        identifier = "projects"
-        name = "Projects"
-        url = "/projects"
-        weight = 4
+[[languages.en.menu.main]]
+  identifier = "projects"
+  name       = "Projects"
+  url        = "/projects"
+  weight     = 4
 
-      [[languages.en.menu.main]]
-        identifier = "education"
-        name = "Education"
-        url = "/#education"
-        weight = 5
+[[languages.en.menu.main]]
+  identifier = "education"
+  name       = "Education"
+  url        = "/#education"
+  weight     = 5
 
-      [[languages.en.menu.main]]
-        identifier = "blog"
-        name = "Blog"
-        url = "https://blog.nathanv.me"
-        weight = 10
-        [languages.en.menu.main.params]
-          dontRenderHomepage = true
+[[languages.en.menu.main]]
+  identifier = "blog"
+  name       = "Blog"
+  url        = "https://blog.nathanv.me"
+  weight     = 10
+
+[languages.en.menu.main.params]
+  dontRenderHomepage = true

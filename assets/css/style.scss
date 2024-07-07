@@ -15,6 +15,7 @@
 @import "section";
 @import "flexgrid";
 
+// unused since this is not a blog
 // @import "prism";
 // @import "syntax";
 // @import "code";
@@ -74,7 +75,13 @@
     color: mix($accent, #afafaf, 2%);
 }
 
-/* Allow links to be word broken */
+// Allow links to be word broken
 .post-content a {
     word-break: break-word;
+}
+
+// undo this change
+// without this, get triple :: sets
+.post-meta>*:not(:first-child)::before {
+    content: normal;
 }

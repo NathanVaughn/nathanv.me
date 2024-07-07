@@ -1,0 +1,3 @@
+[submodule "themes/hugo-theme-terminal-mod"]
+	path = themes/hugo-theme-terminal-mod
+	url = https://github.com/NathanVaughn/hugo-theme-terminal-mod
