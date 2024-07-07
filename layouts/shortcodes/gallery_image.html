@@ -3,15 +3,17 @@
 {{ $image := $image | resources.Fingerprint }}
 {{ $image_webp := $image.Fit "1000x1000 webp" }}
 
-<a data-fslightbox="gallery" data-class="fslightbox-source" href="#{{ $image.Data.Integrity | safeURL }}">
-    <picture>
-        <source srcset="{{ $image_webp.Permalink }}" type="image/webp" class="center">
-        <img src="{{ $image.Permalink }}" class="center">
-    </picture>
-</a>
-{{ with .Params.caption }}
-<p class="caption text-center">{{ . }}</p>
-{{ end }}
+<div>
+    <a data-fslightbox="gallery" data-class="fslightbox-source" href="#{{ $image.Data.Integrity | safeURL }}">
+        <picture>
+            <source srcset="{{ $image_webp.Permalink }}" type="image/webp" class="center">
+            <img src="{{ $image.Permalink }}" class="center">
+        </picture>
+    </a>
+    {{ with .Params.caption }}
+    <p class="caption text-center">{{ . }}</p>
+    {{ end }}
+</div>
 
 {{/* Actual element viewed by the lightbox */}}
 <picture id="{{ $image.Data.Integrity | safeURL }}" class="hidden">

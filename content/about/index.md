@@ -18,4 +18,4 @@ Outside of work, I volunteer my time with robotics competitions for
 middle and high-school students. I'm a big fan of aviation,
 building computers, and Python programming.
 
-[One Page Resume](https://links.nathanv.me/resume) • [Other Links](https://links.nathanv.me)
+[One Page Resume](https://links.nathanv.me/resume)
