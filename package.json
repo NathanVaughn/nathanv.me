@@ -8,6 +8,7 @@
   },
   "scripts": {
     "build": "node build.js",
-    "server": "hugo server"
+    "server": "hugo server",
+    "install": "git submodule update --init --recursive"
   }
 }
