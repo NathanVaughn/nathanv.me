@@ -27,3 +27,8 @@ layout = "2col-left"
 
 - Stereoscopic camera alignment via laser projection
   - [US11360375B1](https://links.nathanv.me/patent)
+
+## Random Public Appearances
+
+- I was interviewed for the [Kerbal Space Program 10-year documentary](https://links.nathanv.me/ksp10).
+- I was filmed for part of the [Microsoft Ignite 2021 Keynote](https://links.nathanv.me/bellmsignite21keynote).
