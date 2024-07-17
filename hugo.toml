@@ -89,12 +89,15 @@ enableRobotsTXT = true
   name       = "Blog"
   url        = "https://blog.nathanv.me"
   weight     = 10
+
+[languages.en.menu.main.params]
+  dontRenderHomepage = true
+
 [[languages.en.menu.main]]
   identifier = "links"
   name       = "Links"
   url        = "https://links.nathanv.me"
   weight     = 20
-
 
 [languages.en.menu.main.params]
   dontRenderHomepage = true
