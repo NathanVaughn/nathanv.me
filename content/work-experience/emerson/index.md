@@ -28,7 +28,7 @@ Malaysia and more.
 
 {{< gallery_image src="116877349_3464102140280816_544464818060577747_n.jpg" caption="An example of an NPS 30 Large ET valve that I am currently responsible for" >}}
 
-Currently, I support some of Fisher's largest sliding stem valves, high pressure
+Currently, I support some of Fisher's largest sliding stem valves, high-pressure
 cavitation protection valves, and many cryogenic designs. As Fisher has been around
 since the 1880, this presents many unique challenges, especially as some of these
 products were designed and sold before desktop computers were available.
@@ -57,7 +57,7 @@ planning committee for Emerson's [We Love STEM Day](https://www.emerson.com/WeLo
 where we bring in hundreds of elementary and middle school students to our facility
 for a half-day to learn with fun STEM activities.
 
-Last, but not least, I have been on two different work-sponsored combat robotics teams.
+Last but not least, I have been on two different work-sponsored combat robotics teams.
 One team was part of a wider community antweight competition (1 pound or less) and our
 team took home the grand champion trophy.
 
