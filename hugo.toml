@@ -2,8 +2,10 @@ baseurl         = "/"
 languageCode    = "en-us"
 theme           = "hugo-theme-terminal-mod"
 disableKinds    = ["RSS"]
-paginate        = 5
 enableRobotsTXT = true
+
+[pagination]
+  pagerSize = 5
 
 # better resampling algorithm
 [imaging]
