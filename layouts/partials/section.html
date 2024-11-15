@@ -2,7 +2,7 @@
 
 {{ if in "2col-left 2col-right" .Params.Layout }}
   <div class="section-2col section-{{ .Params.Layout | plainify }}">
-    <div>
+    <div class="section-2col-img-container">
       {{ .Scratch.Set "cover_type" "section" }}
       {{ partial "cover.html" . }}
     </div>

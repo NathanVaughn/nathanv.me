@@ -69,12 +69,18 @@
 
 }
 
-/* Shift section image down by half to be in the middle of the text column */
-.section-2col .section-cover {
-    /* Vertical Align */
-    top: 50%;
-    transform: translateY(-50%);
+// Vertically align image with content
+.section-2col-img-container {
+    display: flex;
+    align-items: center;
 
+    // turn it off on tablet width so it centers horizontally
+    @media ($tablet) {
+        display: inherit;
+    }
+}
+
+.section-2col .section-cover {
     @media ($tablet) {
         top: auto;
         transform: none;
