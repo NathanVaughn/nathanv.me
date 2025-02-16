@@ -1,5 +1,5 @@
 +++
-cover = "bell_profile.jpg"
+cover = "emerson_profile.png"
 coverSize = "350x350"
 coverTitle = "Me!"
 layout = "2col-right"

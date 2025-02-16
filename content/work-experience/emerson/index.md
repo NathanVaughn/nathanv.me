@@ -8,12 +8,12 @@ address = "301 S 1st Ave, Marshalltown, Iowa 50158"
 phoneNumber = "641-754-3011"
 tags = ["SOLIDWORKS", "documentation", "PowerApps"]
 keywords = []
-description = "I am working as a Product Engineer in the Special Products group of [Fisher Controls](https://www.emerson.com/en-us/automation/fisher) in Marshalltown, Iowa. I am responsible for answering and providing engineering input to inquiries from sales and manufacturing worldwide for many of Fisher's largest sliding stem product lines. Additionally, I work on engineering special orders, which often contain unique material, temperature, pressure, or other requirements."
+description = "I am working as a Product Engineer in the Engineered Specials group of [Fisher Controls](https://www.emerson.com/en-us/automation/fisher) in Marshalltown, Iowa. I am responsible for answering and providing engineering input to inquiries from sales and manufacturing worldwide for many of Fisher's largest sliding stem product lines. Additionally, I work on engineering special orders, which often contain unique material, temperature, pressure, or other requirements."
 showFullContent = false
 weight = 1
 +++
 
-I am working as a Product Engineer in the Special Products group of
+I am working as a Product Engineer in the Engineered Specials group of
 [Fisher Controls](https://www.emerson.com/en-us/automation/fisher) in
 Marshalltown, Iowa. As a Product Engineer, I support the full life cycle for many of
 Fisher's sliding stem product lines. This includes quoting special designs,
@@ -26,14 +26,17 @@ parties. As Fisher has offices globally and Marshalltown is the global headquart
 I work daily with colleagues in Mexico, France, United Arab Emirates, China, Japan,
 Malaysia and more.
 
-{{< gallery_image src="116877349_3464102140280816_544464818060577747_n.jpg" caption="An example of an NPS 30 Large ET valve that I am currently responsible for" >}}
+{{< gallery_image src="499315_Fisher_CAV4_Valve_image-1.jpg" caption="A Fisher CAV4 cutaway rendering" >}}
 
-Currently, I support some of Fisher's largest sliding stem valves, high-pressure
-cavitation protection valves, and many cryogenic designs. As Fisher has been around
-since the 1880, this presents many unique challenges, especially as some of these
-products were designed and sold before desktop computers were available.
+Currently, I support some of Fisher's specialty product lines including
+the [461](https://www.emerson.com/en-us/catalog/fisher-461),
+the [CAV4](https://www.emerson.com/en-us/catalog/fisher-cavitrol-iv),
+and many
+[cryogenic products](https://www.emerson.com/documents/automation/product-bulletin-fisher-hp-cryogenic-sliding-stem-control-valves-en-122650.pdf).
+Some of these products were designed as far back as the 1940s which
+presents many unique challenges for providing support to our customers.
 
-Additionally, as part of our Special Products Group, I work on engineering special
+Additionally, as part of our Engineered Specials Group, I work on engineering special
 orders, which often contain unique material, temperature, pressure, or other
 requirements.
 
@@ -57,14 +60,8 @@ planning committee for Emerson's [We Love STEM Day](https://www.emerson.com/WeLo
 where we bring in hundreds of elementary and middle school students to our facility
 for a half-day to learn with fun STEM activities.
 
-Last but not least, I have been on two different work-sponsored combat robotics teams.
-One team was part of a wider community antweight competition (1 pound or less) and our
-team took home the grand champion trophy.
+Last but not least, I have been part of multiple work-sponsored combat robotics teams
+that have competed with
+[others in the community](https://www.timesrepublican.com/news/todays-news/2024/11/gregg-young-marshalltown-entries-win-big-at-mcc-battlebots-competition/).
 
-{{< image_gallery >}}
-
-{{< gallery_image src="dvc7k.png" caption="Our Digital Violence Controller 7000 with some combat damage and hasty repairs" >}}
-{{< gallery_image src="dvc7k_action_shot.png" caption="The DVC7K in combat" >}}
-{{< gallery_image src="PXL_20231120_153816611.jpg" caption="The grand champion trophy on my desk" >}}
-
-{{< /image_gallery >}}
+{{< gallery_image src="dvc7k_action_shot.png" caption="Our antweight robot in combat" >}}

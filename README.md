@@ -8,6 +8,7 @@ This is highly inspired by [justinnuwin.github.io](https://github.com/justinnuwi
 
 ```bash
 npm install
+git submodule update --init --recursive
 ```
 
 ## Building
