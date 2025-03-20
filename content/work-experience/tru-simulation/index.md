@@ -3,6 +3,8 @@ title = "TRU Simulation"
 website = "https://www.trusimulation.com/"
 logo = "526093-TRU Simulation_logo-tm-primary-horz-RGB-4f3591-original-1708021485_white.png"
 daterange = "Jun 2020 - Aug 2020"
+# Jun 29th 2020
+# Aug 6th 2020
 subtitle = "Software Engineering Intern"
 address = "1827 Northpointe Pkwy Suite 100, Lutz, FL 33558"
 phoneNumber = "813-792-9300"

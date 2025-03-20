@@ -3,6 +3,8 @@ title = "L2 Aviation"
 website = "https://www.l2aviation.com/"
 logo = "l2_aviation_logo.png"
 daterange = "Feb 2016 - July 2016"
+# Feb 9th 2016
+# Jul 22nd 2016
 subtitle = "Programming Intern"
 address = "2100 East Highway 290, Dripping Springs, Texas 78620"
 phoneNumber = "512-894-3414"

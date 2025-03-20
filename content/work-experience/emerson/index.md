@@ -3,6 +3,7 @@ title = "Emerson"
 website = "https://www.emerson.com/"
 logo = "emerson_logo.png"
 daterange = "Aug 2022 - Present"
+# Aug 15th 2022
 subtitle = "Product Engineer"
 address = "301 S 1st Ave, Marshalltown, Iowa 50158"
 phoneNumber = "641-754-3011"

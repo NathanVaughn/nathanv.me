@@ -3,6 +3,8 @@ title = "Collins Aerospace"
 website = "https://www.collinsaerospace.com/"
 logo = "collins_aerospace_logo.png"
 daterange = "May 2019 - Jan 2020"
+# May 20th 2019
+# Jan 10th 2020
 subtitle = "Systems/Software Engineering Co-op"
 address = "400 Collins Road NE, Cedar Rapids, Iowa 52498"
 phoneNumber = "319-295-1000"

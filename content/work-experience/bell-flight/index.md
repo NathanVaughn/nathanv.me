@@ -3,6 +3,8 @@ title = "Bell Flight"
 website = "https://www.bellflight.com/"
 logo = "bell_flight_logo.png"
 daterange = "Jan 2021 - Aug 2022"
+# Jan 4th 2021
+# Aug 2nd 2022
 subtitle = "Software Engineer"
 address = "3255 Bell Flight Boulevard, Fort Worth, Texas 76118"
 phoneNumber = "817-280-2011"

@@ -3,6 +3,8 @@ title = "Michaels Energy"
 website = "https://michaelsenergy.com/"
 logo = "michaels_energy_logo.png"
 daterange = "May 2018 - July 2018"
+# May 14th 2018
+# Jul 20th 2018 (ish)
 subtitle = "Residential Direct Load Control Intern"
 address = "201 1st Avenue SE, Suite 200, Cedar Rapids, Iowa 52401"
 phoneNumber = "319-531-6177"
