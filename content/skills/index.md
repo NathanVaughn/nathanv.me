@@ -14,14 +14,14 @@ layout = "2col-left"
 
 ## Certifications
 
+- FAA Private Pilot License
+  - Certificate 4870106
 - SOLIDWORKS Mechanical Design Professional
   - License [C-4E3UMXYK2A](https://links.nathanv.me/cswp)
 - SOLIDWORKS Mechanical Design Associate
   - License [C-P29LMTJLE2](https://links.nathanv.me/cswa)
 - Ham Radio Technician Class License
   - [Callsign KN4JJJ](https://links.nathanv.me/ham)
-- Level 1 ShopBot Basic CNC Certification
-  - [Certificate](/skills/NathanVaughnShopbot.pdf)
 
 ## Patents
 
