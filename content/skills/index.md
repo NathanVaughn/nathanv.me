@@ -14,7 +14,7 @@ layout = "2col-left"
 
 ## Certifications
 
-- FAA Private Pilot License
+- FAA Private Pilot Airplane Single Engine Land
   - Certificate 4870106
 - SOLIDWORKS Mechanical Design Professional
   - License [C-4E3UMXYK2A](https://links.nathanv.me/cswp)
