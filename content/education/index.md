@@ -15,7 +15,7 @@ _General Studies_ • 2014 - 2016
 
 ----
 
-## Dripping Springs High School
+## [Dripping Springs High School](https://www.dsisdtx.us/o/dshs)
 
 2012 - 2016
 

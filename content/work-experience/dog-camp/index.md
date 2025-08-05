@@ -11,7 +11,7 @@ tags = []
 keywords = []
 description = ""
 showFullContent = true
-weight = 9
+weight = 900
 +++
 
 As a kennel tech, I was responsible for all cleaning tasks along with feeding and

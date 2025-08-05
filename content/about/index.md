@@ -6,7 +6,7 @@ layout = "2col-right"
 +++
 
 **Hi, I'm Nathan Vaughn.** I'm currently a
-[Product Engineer at Fisher Controls]({{< relref "/work-experience/emerson" >}}).
+[Simulation Engineer at Fisher Controls]({{< relref "/work-experience/emerson/simulation-engineer" >}}).
 
 I have a degree in aerospace engineering with a minor in non-destructive
 evaluation from Iowa State University. I've worked professionally and personally

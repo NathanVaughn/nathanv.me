@@ -11,7 +11,7 @@ tags = ["SOLIDWORKS"]
 keywords = []
 description = "I modeled an apparatus to channel light into a series of detectors for an experiment a professor was working on in the Physics department."
 showFullContent = false
-weight = 4
+weight = 400
 +++
 
 I modeled an apparatus to channel light into a series of detectors for an experiment

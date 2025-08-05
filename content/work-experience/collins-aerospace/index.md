@@ -18,7 +18,7 @@ description = """
 - Co-invented a laser projection system to calibrate stereoscopic cameras ([US11360375B1](https://links.nathanv.me/patent))
 """
 showFullContent = false
-weight = 5
+weight = 500
 +++
 
 At Collins Aerospace, I mostly worked on a team that developed the

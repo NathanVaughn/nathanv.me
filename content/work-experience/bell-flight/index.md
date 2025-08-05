@@ -20,7 +20,7 @@ I worked as a Python developer within [Bell's Innovation group](https://www.bell
 - Volunteered with the Bell Advanced Vertical Robotics competition for high-school students as the lead software engineer writing control software, documentation, and answering student questions
 """
 showFullContent = false
-weight = 2
+weight = 200
 +++
 
 At Bell, I was primarily a Python developer within the

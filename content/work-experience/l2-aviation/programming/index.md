@@ -15,7 +15,7 @@ description = """
 - Setup and configured new Autodesk Vault Pro server
 """
 showFullContent = true
-weight = 8
+weight = 800
 +++
 
 My first summer at L2 Aviation was primarily focused on programming.

@@ -16,7 +16,7 @@ description = """
 - Developed new software independently to generate GPS coordinates from a list of customer addresses to reduce time spent driving
 """
 showFullContent = false
-weight = 6
+weight = 600
 +++
 
 At Michaels Energy, I was responsible for inspecting equipment for Alliant Energy's

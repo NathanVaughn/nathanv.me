@@ -15,7 +15,7 @@ description = """
 - Performed systems tests of a new Citation Latitude simulator before and during customer acceptance to ensure the simulator correctly replicated the behavior of the real aircraft
 """
 showFullContent = false
-weight = 3
+weight = 300
 +++
 
 Unfortunately, this internship was shortened to only 6 weeks due to COVID. While I was

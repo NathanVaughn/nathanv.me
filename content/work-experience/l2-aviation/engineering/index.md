@@ -16,7 +16,7 @@ description = """
 - Engineered new parts and installations and drafted technical drawings
 """
 showFullContent = false
-weight = 7
+weight = 700
 +++
 
 At L2 Aviation for my second internship, I did a lot of work converting L2's
