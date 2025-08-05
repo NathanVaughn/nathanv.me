@@ -1,7 +1,7 @@
 baseurl         = "/"
 languageCode    = "en-us"
 theme           = "hugo-theme-terminal-mod"
-disableKinds    = ["RSS"]
+disableKinds    = ["rss"]
 enableRobotsTXT = true
 
 [pagination]
