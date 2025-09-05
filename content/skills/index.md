@@ -16,6 +16,8 @@ layout = "2col-left"
 
 - FAA Private Pilot Airplane Single Engine Land
   - Certificate 4870106
+- FAA Remote Pilot Small Unmanned Aircraft Systems
+  - Certificate 5196932
 - SOLIDWORKS Mechanical Design Professional
   - License [C-4E3UMXYK2A](https://links.nathanv.me/cswp)
 - SOLIDWORKS Mechanical Design Associate
