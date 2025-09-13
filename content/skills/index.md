@@ -19,18 +19,18 @@ layout = "2col-left"
 - FAA Remote Pilot Small Unmanned Aircraft Systems
   - Certificate 5196932
 - SOLIDWORKS Mechanical Design Professional
-  - License [C-4E3UMXYK2A](https://links.nathanv.me/cswp)
+  - License [C-4E3UMXYK2A](https://go.nathanv.me/cswp)
 - SOLIDWORKS Mechanical Design Associate
-  - License [C-P29LMTJLE2](https://links.nathanv.me/cswa)
+  - License [C-P29LMTJLE2](https://go.nathanv.me/cswa)
 - Ham Radio Technician Class License
-  - [Callsign KN4JJJ](https://links.nathanv.me/ham)
+  - [Callsign KN4JJJ](https://go.nathanv.me/ham)
 
 ## Patents
 
 - Stereoscopic camera alignment via laser projection
-  - [US11360375B1](https://links.nathanv.me/patent)
+  - [US11360375B1](https://go.nathanv.me/patent)
 
 ## Random Public Appearances
 
-- I was interviewed for the [Kerbal Space Program 10-year documentary](https://links.nathanv.me/ksp10).
-- I was filmed for part of the [Microsoft Ignite 2021 Keynote](https://links.nathanv.me/bellmsignite21keynote).
+- I was interviewed for the [Kerbal Space Program 10-year documentary](https://go.nathanv.me/ksp10).
+- I was filmed for part of the [Microsoft Ignite 2021 Keynote](https://go.nathanv.me/bellmsignite21keynote).
