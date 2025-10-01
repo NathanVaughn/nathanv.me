@@ -1,8 +1,8 @@
-const spawn = require("cross-spawn");
-const toml = require("@iarna/toml");
-const fs = require("fs");
-const path = require("path");
-const pngToIco = require("png-to-ico");
+import spawn from 'cross-spawn';
+import toml from '@iarna/toml';
+import fs from 'fs';
+import path from 'path';
+import pngToIco from 'png-to-ico';
 
 let base_url = "/";
 
@@ -13,6 +13,8 @@ if (process.env.CF_PAGES_BRANCH === "main") {
 }
 
 console.log(`Using base url "${base_url}"`);
+
+var cmd;
 cmd = spawn.sync(
   "npx",
   ["hugo", "--logLevel", "info", "--cleanDestinationDir", "--minify", "-b", base_url],
