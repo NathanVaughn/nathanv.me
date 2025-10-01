@@ -4,11 +4,12 @@
     "cross-spawn": "^7.0.5",
     "fslightbox": "^3.4.1",
     "hugo-extended": "^0.150.0",
-    "png-to-ico": "^2.1.8"
+    "png-to-ico": "^3.0.0"
   },
   "scripts": {
     "build": "node build.js",
     "server": "hugo server",
     "install": "git submodule update --init --recursive"
-  }
+  },
+  "type": "module"
 }
