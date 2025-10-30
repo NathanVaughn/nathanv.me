@@ -3,6 +3,8 @@ cover = "emerson_profile.png"
 coverSize = "350x350"
 coverTitle = "Me!"
 layout = "2col-right"
+[build]
+  render = "never"
 +++
 
 **Hi, I'm Nathan Vaughn.** I'm currently a

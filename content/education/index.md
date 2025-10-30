@@ -1,3 +1,8 @@
++++
+[build]
+  render = "never"
++++
+
 ## [Iowa State University](https://www.iastate.edu/)
 
 _B.S. in Aerospace Engineering_ • 2016 - 2020

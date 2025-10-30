@@ -2,6 +2,8 @@
 cover = "PXL_20221127_194403484_cropped.jpg"
 coverTitle = "Building a drone from scratch"
 layout = "2col-left"
+[build]
+  render = "never"
 +++
 
 ## Areas
