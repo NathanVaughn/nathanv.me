@@ -3,7 +3,7 @@
     "@iarna/toml": "^2.2.5",
     "cross-spawn": "^7.0.5",
     "fslightbox": "^3.4.1",
-    "hugo-extended": "^0.150.0",
+    "hugo-extended": "^0.152.0",
     "png-to-ico": "^3.0.0"
   },
   "scripts": {
