@@ -1,5 +1,5 @@
 baseurl         = "/"
-languageCode    = "en-us"
+locale          = "en-us"
 theme           = "hugo-theme-terminal-mod"
 disableKinds    = ["rss"]
 enableRobotsTXT = true

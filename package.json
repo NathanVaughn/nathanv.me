@@ -11,5 +11,8 @@
     "server": "hugo server",
     "install": "git submodule update --init --recursive"
   },
-  "type": "module"
+  "type": "module",
+  "allowScripts": {
+    "hugo-extended": true
+  }
 }
