@@ -1,6 +1,6 @@
 +++
 title = "Collins Aerospace"
-website = "https://www.collinsaerospace.com/"
+website = "https://www.rtx.com/collinsaerospace/"
 logo = "collins_aerospace_logo.png"
 daterange = "May 2019 - Jan 2020"
 # May 20th 2019
