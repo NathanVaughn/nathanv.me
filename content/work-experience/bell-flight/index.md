@@ -16,7 +16,7 @@ I worked as a Python developer within [Bell's Innovation group](https://www.bell
 - Automated testing, static code analysis, and deployments with Azure Pipelines
 - Developed a process for repeatable mass deployments of mission software onto air-launched drones
 - Participated in test events and provided on-site customer support for mission-critical software
-- Simplified Python code distribution and re-usability using JFrog Artifactory
+- Simplified Python code distribution and reuse using JFrog Artifactory
 - Volunteered with the Bell Advanced Vertical Robotics competition for high-school students as the lead software engineer writing control software, documentation, and answering student questions
 """
 showFullContent = false
@@ -33,16 +33,16 @@ during the segment on AI:
 
 {{< youtube mM7_zFAIJ9A >}}
 
-Later on, I was one of the initial customers for Project AirSim, Microsoft's successor
+Later, I was among the first customers for Project AirSim, Microsoft's successor
 to this project. I met with Microsoft engineers weekly to discuss the product and
-provide feedback. A lot of this work is mentioned in this article:
+provide feedback. Some of this work is described in this article:
 
 [https://news.microsoft.com/source/features/innovation/microsoft-launches-project-airsim-an-end-to-end-platform-to-accelerate-autonomous-flight/](https://news.microsoft.com/source/features/innovation/microsoft-launches-project-airsim-an-end-to-end-platform-to-accelerate-autonomous-flight/)
 
-I began to work more on business modeling and fleet simulation and was the scrum
+I later focused on business modeling and fleet simulation and served as the scrum
 master of the team. With the help of Azure engineers, we were able to re-architect a
-data analysis workflow that had been set up before I joined. We had a multi-terabyte
-SQL database in Azure that was extremely expensive and our queries were painfully slow.
+data analysis workflow that had been set up before I joined. Our multi-terabyte
+SQL database in Azure was costly to maintain, and queries were slow.
 By leveraging
 [Parquet files](https://parquet.apache.org/), [Databricks](https://www.databricks.com/),
 and [Azure Batch](https://azure.microsoft.com/en-us/products/batch), we were able
@@ -51,14 +51,13 @@ The monthly data storage cost became negligible and we were able to spin up
 servers automatically on-demand to process data in parallel, and then shut them down
 when not in use. This reduced our annual Azure bill by over $30,000.
 
-Additionally, I implemented and managed nearly all of Innovation's CI/CD with
+I also implemented and managed nearly all of Innovation's CI/CD with
 Azure Pipelines and on-premises build agents. When I started, automated testing,
-deployment, and static analysis of Python code were nonexistent. I was able to create
-a set of standard development tools and settings to use on every project to
-keep code consistent and high-quality. As the need for sharing Python code
-increased, I was able to develop and deploy many internal packages to our
-JFrog Artifactory server. This became an efficient way to deploy software within
-our team and to other internal customers while maintaining export compliance.
+deployment, and static analysis of Python code were not in place. I established
+standard development tools and settings for projects to keep code consistent and
+high-quality. As demand for shared Python code grew, I published internal packages
+to JFrog Artifactory, giving our team and other internal customers a controlled way
+to reuse software while maintaining export compliance.
 
 I was heavily involved in Bell's Advanced Vertical Robotics competition. This is a
 high school drone competition where teams are sent a kit of parts and follow

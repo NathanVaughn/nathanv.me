@@ -9,27 +9,24 @@ address = "301 S 1st Ave, Marshalltown, Iowa 50158"
 phoneNumber = "641-754-3011"
 tags = ["Ansys"]
 keywords = []
-description = "I am working as a Simulation Engineer at [Fisher Controls](https://www.emerson.com/en-us/automation/fisher) in Marshalltown, Iowa, performing FEA analysis of Fisher's valve and instrument products."
+description = "At Fisher Controls in Marshalltown, Iowa, I use finite element analysis (FEA) to evaluate Fisher valve and instrument products."
 showFullContent = false
 weight = 90
 +++
 
-I am working as a Simulation Engineer at
+As a Simulation Engineer at
 [Fisher Controls](https://www.emerson.com/en-us/automation/fisher)
-in Marshalltown, Iowa, performing FEA analysis of Fisher's valve and
-instrument products.
+in Marshalltown, Iowa, I use finite element analysis (FEA) to evaluate Fisher
+valve and instrument products.
 
-Besides my core job responsibilities, I've been involved in a lot of side activities.
-I am part of our recruiting team, attending local university career fairs and conducting
-interviews. As furthering STEM education is very important to me,
-I am part of our Marshalltown FIRST robotics initiative, which sponsors
-local teams and plans and runs qualifier events. Additionally, I am on the Marshalltown
-planning committee for Emerson's [We Love STEM Day](https://www.emerson.com/WeLoveSTEM),
-where we bring in hundreds of elementary and middle school students to our facility
-for a half-day to learn with fun STEM activities.
+Alongside my engineering work, I represent Emerson at local university career fairs
+and interview candidates. I also support the Marshalltown FIRST Robotics initiative,
+which sponsors local teams and organizes qualifier events, and serve on the planning
+committee for Emerson's [We Love STEM Day](https://www.emerson.com/WeLoveSTEM).
+The event brings hundreds of elementary and middle school students to our facility
+for hands-on STEM activities.
 
-Last but not least, I have been part of multiple work-sponsored combat robotics teams
-that have competed with
-[others in the community](https://www.timesrepublican.com/news/todays-news/2024/11/gregg-young-marshalltown-entries-win-big-at-mcc-battlebots-competition/).
+I've also competed on several Emerson-sponsored combat robotics teams, including
+events with [other teams from the Marshalltown community](https://www.timesrepublican.com/news/todays-news/2024/11/gregg-young-marshalltown-entries-win-big-at-mcc-battlebots-competition/).
 
 {{< gallery_image src="dvc7k_action_shot.png" caption="Our antweight robot in combat" >}}

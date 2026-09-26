@@ -5,23 +5,23 @@ daterange = "Spring 2020 - Fall 2020"
 subtitle = ""
 cover = "cover.png"
 tags = ["SOLIDWORKS"]
-description = """For my senior design, our team had to design, build, and fly an R/C aircaft designed to deliver a payload to a target a couple of miles away and return back to base."""
+description = """For my senior design, our team designed, built, and flew an R/C aircraft to deliver a payload to a target a couple of miles away and return to base."""
 showFullContent = false
 weight = 15
 +++
 
-For my senior design, our team had to design, build, and fly an R/C aircraft designed
-to deliver a payload to a target a couple of miles away and return back to base.
-There were many design limitations in this project including a 7.5-foot maximum wingspan
-and a 12-pound maximum takeoff weight. The payload was about shoebox-sized, weighed
+For my senior design, our team designed, built, and flew an R/C aircraft to deliver
+a payload to a target a couple of miles away and return to base. The project had
+several constraints, including a 7.5-foot maximum wingspan and a 12-pound maximum
+takeoff weight. The payload was about shoebox-sized and weighed
 4 pounds, the aircraft had to fit inside a Pelican case before launch,
 and our budget was only around $200.
 
-Creating a design to drop a payload mid-flight that
-represented 1/3rd of the aircraft's fully loaded weight and could be repeatably
-disassembled and reassembled was no easy feat. I used SOLIDWORKS and did all of CAD
-modeling for this project. Everything was parametrically designed so that quick
-modifications could be made to test with CFD.
+Designing an aircraft to release a payload weighing one-third of its fully loaded
+weight, while still allowing the aircraft to be repeatedly disassembled and
+reassembled, was a significant challenge. I completed the aircraft's CAD modeling
+in SOLIDWORKS and made the design parametric so we could iterate quickly and evaluate
+changes with CFD.
 
 {{< image_gallery >}}
 
@@ -32,11 +32,10 @@ modifications could be made to test with CFD.
 
 {{< /image_gallery >}}
 
-The final aircraft came out extremely close to the CAD model. The detailed model
-helped a lot with being able to use a CNC to machine foam to the precise
-shapes required. While the aircraft did up end up having some Cg issues and required
-exceeding the maximum takeoff weight to correct this, the aircraft did work, and we
-were one of the few teams to reliably have our payload separate in-flight.
+The finished aircraft closely matched the CAD model, and its detailed geometry
+supported CNC machining of the foam components. The aircraft had center-of-gravity
+issues that we addressed by exceeding the maximum allowable takeoff weight. Despite this,
+it flew, and our team was among the few to reliably release its payload in flight.
 
 {{< image_gallery >}}
 

@@ -16,7 +16,7 @@ _B.S. in Aerospace Engineering_ • 2016 - 2020
 
 _General Studies_ • 2014 - 2016
 
-21 Credit hours in English, History, Government, and Sociology
+21 Credit hours in English, history, government, and sociology
 
 ----
 
@@ -24,5 +24,5 @@ _General Studies_ • 2014 - 2016
 
 2012 - 2016
 
-- 4.0 GPA.
-- I was involved in marching and concert band, and FIRST robotics
+- 4.0 GPA
+- Participated in marching and concert band and FIRST Robotics

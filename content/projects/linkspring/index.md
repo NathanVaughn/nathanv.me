@@ -4,14 +4,13 @@ website = ""
 daterange = "Summer 2020 - March 2023"
 subtitle = ""
 tags = ["AWS", "Lambda", "DynamoDB", "S3", "CloudFront", "Python", "Flask"]
-description = "I developed a severless web app for users to create a page to consolidate all of the links they want to share with other people (Facebook, Twitter, Instagram, GitHub, etc) in one place."
+description = "I developed a serverless web app where users could bring together links to their social profiles and other sites on a single page."
 showFullContent = false
 weight = 20
 +++
 
-I developed a severless web app for users to create a page to consolidate all
-of the links they want to share with other people (Facebook, Twitter, Instagram,
-GitHub, etc) in one place. I solely did all of the work on it including design,
+I developed a serverless web app where users could bring together links to their
+social profiles and other sites on a single page. I handled the design,
 back-end work, front-end work, and development automation. It was primarily built
 with the Python [Flask framework](https://flask.palletsprojects.com/en/1.1.x/)
 and runs on [AWS Lambda](https://aws.amazon.com/lambda/) with
