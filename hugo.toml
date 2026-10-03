@@ -9,8 +9,16 @@ enableRobotsTXT = true
 
 # better resampling algorithm
 [imaging]
-  quality        = 95
   resampleFilter = "Lanczos"
+
+[imaging.jpeg]
+  quality = 95
+
+[imaging.webp]
+  quality = 95
+
+[imaging.avif]
+  quality = 95
 
 # allow for HTML in markdown
 [markup]
